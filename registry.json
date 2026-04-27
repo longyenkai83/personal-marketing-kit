@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "name": "personal-marketing-kit",
+  "version": "1.0.0",
+  "title": "Personal Marketing Kit",
+  "subtitle": "12 Claude Skills — Vietnamese Women in Business",
+  "description": "AI marketing kit cho phụ nữ Việt Nam có chuyên môn — đóng gói thành sản phẩm số bán online theo Maria Wendt × Kallaway method.",
+  "author": "longyenkai83",
+  "license": "MIT",
+  "language": "vi",
+  "audience": "Vietnamese women in business (28-45) with expertise wanting to launch digital products",
+  "url": "https://github.com/longyenkai83/personal-marketing-kit",
+  "released_at": "2026-04-27",
+
+  "stages": [
+    {
+      "id": "1-research",
+      "name": "Customer Research",
+      "description": "Đào pain/desire/objection từ market real",
+      "skills": ["fb-insight-miner"]
+    },
+    {
+      "id": "2-content",
+      "name": "Content (Hooks + Scripts + Captions)",
+      "description": "Build content viral theo Kallaway + Maria methods",
+      "skills": ["kallaway-hook-master", "kallaway-script-master", "hook-swipe-library", "content-engine"]
+    },
+    {
+      "id": "3-lead-magnet",
+      "name": "Lead Magnet",
+      "description": "Build PDF freebie để capture email",
+      "skills": ["lead-magnet-factory"]
+    },
+    {
+      "id": "4-email",
+      "name": "Email Marketing",
+      "description": "Welcome sequence + launches + automations theo Maria $18M method",
+      "skills": ["email-marketing-writer"]
+    },
+    {
+      "id": "5-monetize",
+      "name": "Monetize Funnel",
+      "description": "Tripwire + digital product launch",
+      "skills": ["tripwire-builder", "digital-product-builder"]
+    },
+    {
+      "id": "6-meta",
+      "name": "Meta (skill builders)",
+      "description": "Build/audit custom Claude Code skills",
+      "skills": ["subagent-architect"]
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "fb-insight-miner",
+      "stage": "1-research",
+      "path": "skills/1-research/fb-insight-miner/SKILL.md",
+      "title": "FB Insight Miner",
+      "description": "Đào pain/desire/objection từ FB fanpage public, output 50-page customer insight report",
+      "triggers": ["phân tích insight fanpage", "đào comment fanpage", "voice of customer FB"],
+      "requires": ["Apify MCP (~$4 cost per scrape)"],
+      "chains_to": ["content-engine"]
+    },
+    {
+      "id": "kallaway-hook-master",
+      "stage": "2-content",
+      "path": "skills/2-content/kallaway-hook-master/SKILL.md",
+      "title": "Kallaway Hook Master",
+      "description": "Hook 3-5s đầu video với 11 framework Kallaway (6 Hook + 5 Dream Outcome) + 4-Component Alignment",
+      "triggers": ["viết hook", "hook kallaway", "hook viral", "kịch bản 3 giây đầu"],
+      "chains_to": ["kallaway-script-master", "content-engine"]
+    },
+    {
+      "id": "kallaway-script-master",
+      "stage": "2-content",
+      "path": "skills/2-content/kallaway-script-master/SKILL.md",
+      "title": "Kallaway Script Master",
+      "description": "Kịch bản video 60s+ với 6 Levels Storytelling + 4 Blockers + 6 Story Locks + 9 CTA Library",
+      "triggers": ["viết kịch bản", "script video", "kịch bản long-form", "audit script", "tăng retention"],
+      "chains_from": ["kallaway-hook-master"],
+      "chains_to": ["content-engine"]
+    },
+    {
+      "id": "hook-swipe-library",
+      "stage": "2-content",
+      "path": "skills/2-content/hook-swipe-library/SKILL.md",
+      "title": "Hook Swipe Library",
+      "description": "Query 72 hook proven women-biz-vn niche (Kallaway 18-topic × 4-temperature framework)",
+      "triggers": ["tìm hook có sẵn", "swipe hook", "hook bank", "remix hook"],
+      "data_source": "shared/hook-banks/women-biz-vn-72.json"
+    },
+    {
+      "id": "content-engine",
+      "stage": "2-content",
+      "path": "skills/2-content/content-engine/SKILL.md",
+      "title": "Content Engine",
+      "description": "Caption FB/IG (4-stage VPC pipeline: Customer Profile → Insight → Hook → Content)",
+      "triggers": ["viết caption", "lập hồ sơ khách hàng", "content engine", "viết content theo VPC"],
+      "stages_pipeline": ["profile", "insights", "hooks", "content"],
+      "chains_from": ["fb-insight-miner", "kallaway-hook-master"],
+      "data_source": "shared/niche-packs/"
+    },
+    {
+      "id": "lead-magnet-factory",
+      "stage": "3-lead-magnet",
+      "path": "skills/3-lead-magnet/lead-magnet-factory/SKILL.md",
+      "title": "Lead Magnet Factory",
+      "description": "Listicle ebook 9-page Marie Forleo style, Canva-ready CSV + Markdown preview",
+      "triggers": ["tạo lead magnet", "ebook freebie", "PDF lead magnet"],
+      "chains_to": ["email-marketing-writer", "tripwire-builder"]
+    },
+    {
+      "id": "email-marketing-writer",
+      "stage": "4-email",
+      "path": "skills/4-email/email-marketing-writer/SKILL.md",
+      "title": "Email Marketing Writer",
+      "description": "Maria Wendt method ($18M revenue): campaigns/launches/automations + 9-Word Email + algorithm hacks",
+      "triggers": ["viết email", "welcome sequence", "subject line", "email automation", "9 word email"],
+      "email_types": ["campaign", "launch", "welcome_automation", "9_word_reengage", "nurture", "pitch"],
+      "chains_from": ["lead-magnet-factory", "tripwire-builder"]
+    },
+    {
+      "id": "tripwire-builder",
+      "stage": "5-monetize",
+      "path": "skills/5-monetize/tripwire-builder/SKILL.md",
+      "title": "Tripwire Builder",
+      "description": "$1-7 entry funnel + Welcome Coupon Email Automation ($50k/month Maria playbook)",
+      "triggers": ["build tripwire", "$1 sản phẩm", "welcome coupon", "list building funnel"],
+      "tripwire_types": ["worksheet", "mini_course", "7_day_email_course", "audio_bundle"],
+      "chains_from": ["lead-magnet-factory", "email-marketing-writer"],
+      "chains_to": ["digital-product-builder"]
+    },
+    {
+      "id": "digital-product-builder",
+      "stage": "5-monetize",
+      "path": "skills/5-monetize/digital-product-builder/SKILL.md",
+      "title": "Digital Product Builder",
+      "description": "Build sản phẩm số viral theo Maria Wendt $7M method (3-Pillar test + pricing + Kajabi/SamCart)",
+      "triggers": ["build sản phẩm số", "đóng gói chuyên môn", "viral digital product", "validate product idea"],
+      "product_types": ["course", "pdf_bundle", "audio_bundle", "template_pack", "hybrid"],
+      "chains_from": ["tripwire-builder", "email-marketing-writer"]
+    },
+    {
+      "id": "subagent-architect",
+      "stage": "6-meta",
+      "path": "skills/6-meta/subagent-architect/SKILL.md",
+      "title": "Subagent Architect",
+      "description": "Build/audit custom Claude Code subagents (extend kit với skill mới)",
+      "triggers": ["tạo subagent", "build subagent", "audit subagent", "scaffold agent"],
+      "modes": ["build", "audit"]
+    }
+  ],
+
+  "shared_resources": {
+    "niche_packs": [
+      {
+        "id": "women-biz-vn",
+        "path": "shared/niche-packs/women-biz-vn.json",
+        "description": "Default niche pack — phụ nữ KD VN có chuyên môn"
+      },
+      {
+        "id": "coach-personal-brand",
+        "path": "shared/niche-packs/coach-personal-brand.json",
+        "description": "Coach 1-1 build personal brand IG/FB"
+      },
+      {
+        "id": "_universal",
+        "path": "shared/niche-packs/_universal.json",
+        "description": "Universal fallback (cần verify với data thật)"
+      }
+    ],
+    "hook_banks": [
+      {
+        "id": "women-biz-vn-72",
+        "path": "shared/hook-banks/women-biz-vn-72.json",
+        "description": "72 hook proven (Kallaway 18-topic × 4-temperature) — phụ nữ KD VN"
+      }
+    ],
+    "references": [
+      {
+        "id": "cta-library",
+        "path": "shared/references/cta-library.md",
+        "description": "9 CTA types + Decision Tree + 70/20/10 rotation rule"
+      }
+    ]
+  },
+
+  "workflows": [
+    {
+      "id": "workflow-a",
+      "name": "Build Full Launch (1-2 weeks)",
+      "path": "docs/WORKFLOW-A.md",
+      "skills_used": [
+        "digital-product-builder",
+        "lead-magnet-factory",
+        "tripwire-builder",
+        "email-marketing-writer",
+        "kallaway-hook-master",
+        "kallaway-script-master",
+        "content-engine"
+      ]
+    },
+    {
+      "id": "workflow-b",
+      "name": "Single Reel + Caption (30 min)",
+      "path": "docs/WORKFLOW-B.md",
+      "skills_used": [
+        "kallaway-hook-master",
+        "kallaway-script-master",
+        "content-engine"
+      ]
+    },
+    {
+      "id": "workflow-c",
+      "name": "Audit Existing Script (15 min)",
+      "path": "docs/WORKFLOW-C.md",
+      "skills_used": [
+        "kallaway-script-master"
+      ]
+    },
+    {
+      "id": "workflow-d",
+      "name": "Customer Research (45 min, ~$4)",
+      "path": "docs/WORKFLOW-D.md",
+      "skills_used": [
+        "fb-insight-miner",
+        "content-engine"
+      ]
+    }
+  ],
+
+  "methodologies": {
+    "maria_wendt": {
+      "source": "Inbox to Income + How To Create A Viral Digital Product courses",
+      "revenue_proof": "$18M cumulative",
+      "key_concepts": [
+        "3-Pillar Viral Product (Pique Curiosity + Specific + Unbelievable)",
+        "Email funnel: campaigns / launches / automations",
+        "Welcome Coupon Email Automation ($50k/month)",
+        "Subject line random + curiosity (50% time)",
+        "9-Word Email (Dean Jackson) re-engagement",
+        "Look-personal + reply-back algorithm hack",
+        "Pricing sweet spot $50-100",
+        "Tech stack: Kajabi + Sam Cart"
+      ]
+    },
+    "kallaway": {
+      "source": "Hooks Workshop + 6 Levels Storytelling + 6 Story Locks",
+      "revenue_proof": "$5M+ student revenue",
+      "key_concepts": [
+        "6 Hook frameworks (Fortune Teller / Experimenter / Teacher / Magician / Investigator / Contrarian)",
+        "5 Dream Outcome formats (About Me / If I / To You / Can You / He-She Just Did)",
+        "4-Component Alignment (Spoken + Text + Visual + Audio)",
+        "6 Levels Storytelling (Reporter avoid → Trickster → Warrior → Architect → Translator → Artist)",
+        "6 Story Locks (Naming / Embedded Truths / Thought Articulation / Negative Frames / Loop Openers / Contrast Words)",
+        "Underlying mechanism: CONTRAST"
+      ]
+    }
+  },
+
+  "tech_stack_default": {
+    "international": {
+      "lms": "Kajabi",
+      "checkout": "Sam Cart",
+      "email": "Active Campaign",
+      "lead_capture": "Manychat"
+    },
+    "vietnam": {
+      "lms": "Kajabi",
+      "payment": "SePay landing page hoặc VNPAY",
+      "email": "MailerLite (free tier) hoặc Active Campaign",
+      "lead_capture": "Manychat"
+    },
+    "never_recommend": [
+      "Mailchimp basic (deliverability yếu)",
+      "Shopify (designed for physical, low conversion digital)",
+      "Quickbooks (overkill cho digital biz)"
+    ]
+  },
+
+  "pricing_ladder": [
+    {"tier": "lead_magnet", "usd": 0, "vnd": 0, "stage": "Build email list"},
+    {"tier": "tripwire", "usd_range": "1-7", "vnd_range": "25k-170k", "stage": "Convert visitor → buyer"},
+    {"tier": "entry", "usd_range": "27-37", "vnd_range": "650k-890k", "stage": "Mini-course"},
+    {"tier": "mid", "usd": 97, "vnd": "2.3tr", "stage": "Sweet spot main product", "recommended": true},
+    {"tier": "high", "usd_range": "197-300", "vnd_range": "4.7-7tr", "stage": "Comprehensive course"},
+    {"tier": "premium", "usd_min": 497, "vnd_min": "12tr", "stage": "Coaching cohort / 1-1"}
+  ],
+
+  "install": {
+    "claude_code": {
+      "url": "https://claude.com/claude-code",
+      "platforms": ["windows", "mac", "linux"]
+    },
+    "kit_install": {
+      "method_1_recommended": "Download ZIP from GitHub → drop into ~/.claude/",
+      "method_2": "GitHub Releases → versioned ZIP",
+      "method_3": "git clone (advanced)"
+    },
+    "paths": {
+      "windows": "C:\\Users\\[YourUsername]\\.claude\\",
+      "mac": "/Users/[YourUsername]/.claude/",
+      "linux": "/home/[YourUsername]/.claude/"
+    }
+  },
+
+  "support": {
+    "free": {
+      "github_issues": "https://github.com/longyenkai83/personal-marketing-kit/issues",
+      "documentation": ["README.md", "docs/INSTALL-VN.md", "docs/INSTALL-EN.md"],
+      "community": "GitHub Discussions tab"
+    },
+    "paid": {
+      "onboarding_1to1": {"price_vnd": "5tr", "duration": "60 min Zoom"},
+      "vip_cohort": {"price_vnd": "15tr", "duration": "4 weeks group coaching"},
+      "done_for_you": {"price_vnd_min": "50tr", "description": "Em build kit fully customized"}
+    }
+  }
+}

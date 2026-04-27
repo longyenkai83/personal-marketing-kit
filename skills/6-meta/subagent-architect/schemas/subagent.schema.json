@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claude Code Subagent Frontmatter",
+  "description": "Validates YAML frontmatter of a custom Claude Code subagent file. Source: https://code.claude.com/docs/en/sub-agents",
+  "type": "object",
+  "required": ["name", "description"],
+  "additionalProperties": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "minLength": 2,
+      "maxLength": 60,
+      "description": "Unique identifier — kebab-case, lowercase letters and hyphens only"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 500,
+      "description": "When Claude should delegate to this subagent. Add 'Use proactively' for auto-trigger."
+    },
+    "tools": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "array", "items": {"type": "string"}, "minItems": 1}
+      ],
+      "description": "Allowlist of tools. Comma-separated string or array. Inherits all tools if omitted."
+    },
+    "disallowedTools": {
+      "oneOf": [
+        {"type": "string"},
+        {"type": "array", "items": {"type": "string"}}
+      ],
+      "description": "Tools to deny. Applied before `tools` resolution."
+    },
+    "model": {
+      "oneOf": [
+        {"enum": ["sonnet", "opus", "haiku", "inherit"]},
+        {"type": "string", "pattern": "^claude-(sonnet|opus|haiku)-[0-9]+(-[0-9]+)*(-[0-9]+)?$"}
+      ],
+      "description": "Model alias, full model ID, or 'inherit'. Defaults to 'inherit'."
+    },
+    "permissionMode": {
+      "enum": ["default", "acceptEdits", "auto", "dontAsk", "bypassPermissions", "plan"],
+      "description": "How subagent handles permission prompts."
+    },
+    "maxTurns": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Max agentic turns before subagent stops."
+    },
+    "skills": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Skill names to load into subagent context at startup."
+    },
+    "mcpServers": {
+      "type": "array",
+      "description": "MCP servers — string references or inline configs."
+    },
+    "hooks": {
+      "type": "object",
+      "description": "Lifecycle hooks (PreToolUse / PostToolUse / Stop). Cleanup when subagent finishes."
+    },
+    "memory": {
+      "enum": ["user", "project", "local"],
+      "description": "Persistent memory scope. Enables ~/.claude/agent-memory/ or .claude/agent-memory/ directory."
+    },
+    "background": {
+      "type": "boolean",
+      "description": "Always run as background task. Default false."
+    },
+    "effort": {
+      "enum": ["low", "medium", "high", "xhigh", "max"],
+      "description": "Effort level. Inherits from session if omitted."
+    },
+    "isolation": {
+      "enum": ["worktree"],
+      "description": "Run in temporary git worktree (isolated copy of repo)."
+    },
+    "color": {
+      "enum": ["red", "blue", "green", "yellow", "purple", "orange", "pink", "cyan"],
+      "description": "Display color in agent panel and transcript."
+    },
+    "initialPrompt": {
+      "type": "string",
+      "description": "Auto-submitted as first user turn when running as main session via --agent. Not used when subagent is delegated to."
+    }
+  }
+}

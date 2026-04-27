@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "name": "Universal fallback niche pack",
+    "version": "1.0",
+    "use_when": "User's niche doesn't match any specific niche pack. Provides minimal priors only — most fields require fb_insight_miner or brief to fill.",
+    "warning": "Every entry below is confidence=assumed. Skill MUST verify against actual data before promoting any entry to inferred/observed."
+  },
+  "schema_version": "1.0",
+  "language": "vi",
+  "demographics_template": {
+    "age_band": "(fill)",
+    "role_identity": "(fill — how customer self-labels)",
+    "life_stage": "(fill)",
+    "income_tier_vnd": "(fill)",
+    "ig_fb_usage": {
+      "primary_platform": "IG",
+      "format_preference": "(fill — reel/carousel/feed)",
+      "peak_online": "(fill)",
+      "behavior": "(fill — lurker/commenter/creator-active)"
+    }
+  },
+  "jobs_priors": [
+    {
+      "id": "j_universal_1",
+      "type": "functional",
+      "statement": "Build presence trên IG với cadence ổn định",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_universal_2",
+      "type": "social",
+      "statement": "Được nhìn nhận như chuyên gia/người đáng tin trong niche",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_universal_3",
+      "type": "emotional",
+      "statement": "Cảm thấy work bền vững, không burn-out vì content",
+      "importance": "medium",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "pains_priors": [
+    {
+      "id": "p_universal_1",
+      "type": "obstacle",
+      "statement": "Không biết viết gì khác đám đông cùng niche",
+      "severity_tag": "moderate",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_universal_2",
+      "type": "undesired_outcome",
+      "statement": "Đăng đều mà engagement thấp",
+      "severity_tag": "moderate",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_universal_3",
+      "type": "risk",
+      "statement": "Sợ ra mắt offer mà không ai mua",
+      "severity_tag": "extreme",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "gains_priors": [
+    {
+      "id": "g_universal_1",
+      "level_tag": "required",
+      "statement": "Có lộ trình rõ ràng từng bước",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_universal_2",
+      "level_tag": "expected",
+      "statement": "Có template để dễ apply",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_universal_3",
+      "level_tag": "desired",
+      "statement": "Network với người đi trước",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "voice_priors": {
+    "self_labels": [],
+    "repeated_words": ["flop", "lú", "đu trend", "burn out"],
+    "metaphors": [],
+    "verbatim_bank": []
+  }
+}

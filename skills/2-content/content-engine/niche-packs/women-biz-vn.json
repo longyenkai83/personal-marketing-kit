@@ -1,0 +1,476 @@
+{
+  "_meta": {
+    "name": "Women Biz VN — Knowledge-to-Digital-Product niche pack",
+    "version": "1.0",
+    "niche": "women-biz-vn",
+    "use_when": "User là phụ nữ VN đã có chuyên môn/dịch vụ/kỹ năng (coach, expert, KOL, freelancer, chủ shop, chủ phòng tập, giáo viên...) muốn đóng gói thành sản phẩm số (khoá học, ebook, template, video, workshop) và bán online theo mô hình Maria Wendt — kết hợp content social + email marketing + funnel + sản phẩm số. Bao gồm cả phụ nữ comfortable với MXH lẫn nội tâm chỉ muốn chia sẻ kiến thức.",
+    "warning": "Mọi entry confidence=assumed. Skill PHẢI verify qua fb_insight_miner hoặc brief data trước khi promote sang observed.",
+    "founder_story_slot": "Niche pack KHÔNG hard-code founder story. Mỗi user dùng tool sẽ có story riêng — skill sẽ ask qua brief-form. Ví dụ persona founder lưu ở examples/ (chi-banh-kem-pilates, etc.)."
+  },
+  "schema_version": "1.0",
+  "language": "vi",
+  "demographics_template": {
+    "age_band": "28-45 (median 35)",
+    "role_identity_options": [
+      "chủ shop online (đã ổn định)",
+      "chuyên gia/expert có chuyên môn (sức khoẻ, tài chính, parenting, dinh dưỡng...)",
+      "coach 1-1 (life/business/health/career)",
+      "freelancer (designer, marketer, copywriter, photographer)",
+      "chủ phòng tập / studio / spa nhỏ",
+      "giáo viên / trainer ngoài giờ",
+      "ex-corporate đang chuyển sang online business",
+      "mẹ bỉm có kiến thức chuyên môn muốn work-from-home",
+      "KOL/creator có audience nhưng chưa monetize bài bản"
+    ],
+    "life_stage_options": [
+      "đã có thu nhập từ chuyên môn nhưng cần thoát mô hình bán thời gian",
+      "đang chạy doanh nghiệp truyền thống (shop/dịch vụ) muốn mở thêm digital line",
+      "đã có audience MXH nhưng email list = 0, chưa có funnel",
+      "đã thử bán khoá 1 lần flop, đang muốn relaunch bài bản",
+      "muốn build từ đầu vì vừa rời corporate / vừa hồi gia đình"
+    ],
+    "income_tier_vnd_typical": "20-100tr/tháng (offline/dịch vụ chính), kỳ vọng +30tr/tháng từ digital product trong 6 tháng đầu",
+    "ig_fb_usage_typical": {
+      "primary_platform": "FB",
+      "format_preference": "FB long-post + reel cá nhân + IG carousel; phần lớn comfortable lộ mặt, ~30% nội tâm chỉ ưa text/voice-over",
+      "peak_online": "5h30-7h sáng (trước khi gia đình thức) + 21h-23h (sau khi con ngủ)",
+      "behavior": "creator-active nhưng rời rạc, post 2-4/tuần khi rảnh, hay biến mất 2-3 tuần khi bận gia đình hoặc bận khách offline"
+    }
+  },
+  "jobs_priors": [
+    {
+      "id": "j_wbiz_1",
+      "type": "functional",
+      "statement": "Đóng gói chuyên môn/kinh nghiệm sẵn có thành 1 sản phẩm số đầu tiên (ebook $1, mini-course $37, hoặc khoá $300) bán được online",
+      "trigger_context": "khi nhận ra mình đang trade time-for-money và không scale được",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_2",
+      "type": "functional",
+      "statement": "Build hệ thống email list + welcome sequence để nurture audience tự động — biến follower thành buyer",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_3",
+      "type": "functional",
+      "statement": "Có funnel hoàn chỉnh: lead magnet (free) → tripwire ($1) → core ($37-$300) → mà không cần học tech phức tạp",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_4",
+      "type": "functional",
+      "statement": "Setup chatbot / DM auto trả lời câu hỏi thường gặp + qualify lead, không bị ngợp inbox",
+      "importance": "medium",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_5",
+      "type": "functional",
+      "statement": "Sản xuất content định kỳ (caption FB/IG + reel + email broadcast) trong <4h/tuần — không phải 'ngồi nghĩ caption' mỗi ngày",
+      "trigger_context": "tối CN lập kế hoạch tuần",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_6",
+      "type": "emotional",
+      "statement": "Tự tin nói về giá sản phẩm số mà không thấy 'tham tiền' hay 'lùa gà' — thấy giá trị mình tạo ra xứng đáng",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_7",
+      "type": "emotional",
+      "statement": "Cảm giác 'tự do' — không bị gò bó giờ giấc, có thời gian cho gia đình, không phải mãi 'chạy' như khi mở DN truyền thống",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_8",
+      "type": "emotional",
+      "statement": "Không bị overwhelm bởi tech — mọi tool phải drag-drop, click-to-setup, không cần đụng code",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_9",
+      "type": "social",
+      "statement": "Được nhìn nhận như 'chuyên gia thật, làm thật, có kết quả thật' — không phải 'guru online tự xưng' hay 'lùa gà MLM'",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_wbiz_10",
+      "type": "social",
+      "statement": "Truyền cảm hứng cho phụ nữ khác — 'mình làm được, em cũng làm được', xây cộng đồng peer phụ nữ KD",
+      "importance": "medium",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "pains_priors": [
+    {
+      "id": "p_wbiz_1",
+      "type": "obstacle",
+      "statement": "Yếu công nghệ — nghe đến 'Zapier', 'Mailerlite', 'integrate API', 'embed code' là đứng hình. Đăng ký tool rồi không biết bắt đầu từ đâu",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_2",
+      "type": "obstacle",
+      "statement": "Có cả mỏ kiến thức chuyên môn nhưng không biết bắt đầu đóng gói từ đâu — viết outline 3 lần, xoá 3 lần, không ra cái nào",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_3",
+      "type": "obstacle",
+      "statement": "Không có thời gian học tool mới — vừa lo gia đình, vừa lo khách offline, mỗi tối còn 1-2h thì đã mệt rã",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_4",
+      "type": "obstacle",
+      "statement": "Có ý tưởng content liên tục nhưng không có hệ thống — viết tay vào sổ, lưu trong note iPhone, copy giữa Zalo và FB, mất hết khi đổi máy",
+      "severity_tag": "moderate",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_5",
+      "type": "undesired_outcome",
+      "statement": "Reel/post viral 50k-200k view nhưng inbox toàn hỏi giá rồi biến — không có ai thực sự mua. Viral mà không monetize được",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_6",
+      "type": "undesired_outcome",
+      "statement": "Follower tăng đều mà email list vẫn = 0 — không có ai để retarget khi launch, mỗi lần launch lại đi 'xin' từ đầu",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_7",
+      "type": "undesired_outcome",
+      "statement": "Chốt được DM nhưng quên follow-up — 1 tuần sau mở lại Inbox thấy 30 cuộc trò chuyện đang dở, không nhớ ai đã chốt giá ai đang chờ trả lời",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_8",
+      "type": "undesired_outcome",
+      "statement": "Bán được 1 lần xong không có upsell / cross-sell — khách mua $1 worksheet xong biến mất, không kéo lên được $37 hay $300",
+      "severity_tag": "moderate",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_9",
+      "type": "undesired_outcome",
+      "statement": "Làm mãi mà không thoát được giờ làm việc — vẫn phải online 12h/ngày trả DM, vẫn phải tự livestream, không scale được như Maria",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_10",
+      "type": "risk",
+      "statement": "Sợ launch khoá đầu mà chỉ có 2-3 người mua — mất mặt với network, mất tự tin, không dám launch lần 2",
+      "severity_tag": "extreme",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_11",
+      "type": "risk",
+      "statement": "Sợ bị nhìn như 'MLM', 'lùa gà', 'mẹ bỉm bán khoá' — khi bắt đầu post bán hàng thấy bạn bè im im không tương tác như trước",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_12",
+      "type": "risk",
+      "statement": "Sợ tech fail giữa launch — Mailerlite không gửi, link Stan/Kajabi hỏng, payment SePay reject — mất khách ngay khi đang hot",
+      "severity_tag": "extreme",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_wbiz_13",
+      "type": "obstacle",
+      "statement": "(Nhóm nội tâm) Ngại lộ mặt lên video, nhưng biết không lộ mặt thì khó build personal brand — kẹt giữa 2 lựa chọn",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "gains_priors": [
+    {
+      "id": "g_wbiz_1",
+      "level_tag": "required",
+      "statement": "Lộ trình rõ từng bước: từ chuyên môn-trong-đầu → outline khoá → quay video → upload → sales page → trang thanh toán → email auto. Không skip bước nào",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_2",
+      "level_tag": "required",
+      "statement": "Hệ thống low-tech: chỉ cần biết click + drag-drop, không cần code, không cần Zapier phức tạp. Setup 1 lần dùng cả năm",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_3",
+      "level_tag": "required",
+      "statement": "Hệ thống content batching: 1 buổi chiều CN → caption + email + reel script đủ cho cả tuần. Không phải 'ngồi nghĩ caption' mỗi ngày",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_4",
+      "level_tag": "expected",
+      "statement": "Template proven sẵn: sales page, welcome email sequence, launch email 5-7 bài, DM script, FAQ — copy-paste sửa nhẹ là dùng",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_5",
+      "level_tag": "expected",
+      "statement": "Tools recommend cụ thể với so sánh giá VN-friendly: Mailerlite vs Flodesk vs GetResponse, Stan vs Kajabi vs Beacons, SePay vs Stripe",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_6",
+      "level_tag": "expected",
+      "statement": "Hook bank theo từng goal: hook awareness, hook lead-gen (đổi email lấy free), hook sale ($1 tripwire / $37 / $300)",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_7",
+      "level_tag": "desired",
+      "statement": "Cộng đồng peer support — phụ nữ VN cùng đang làm digital product, share win/loss/learn hàng tuần",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_8",
+      "level_tag": "desired",
+      "statement": "Case study cụ thể từ phụ nữ VN giống mình (không phải Maria Mỹ) — vd: 'chị bánh kem chuyển sang coach', 'cô giáo tiếng Anh bán mini-course $37'",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_9",
+      "level_tag": "desired",
+      "statement": "Voice-over / behind-the-scene format cho người ngại lộ mặt — vẫn build được brand mà không phải up mặt lên reel",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_10",
+      "level_tag": "unexpected",
+      "statement": "1-1 review feed/sales page/email sequence trước khi launch — có người soi giúp lỗi mà mình không thấy",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_11",
+      "level_tag": "unexpected",
+      "statement": "AI tool đóng gói sẵn — nói tiếng Việt, gõ brief 5 phút ra cả batch content + email + sales copy nhất quán giọng mình",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_wbiz_12",
+      "level_tag": "unexpected",
+      "statement": "Được intro vào network phụ nữ KD top-tier VN — collab launch chéo, tăng audience nhanh không cần ads",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "voice_priors": {
+    "self_labels": [
+      "chị",
+      "em",
+      "mình",
+      "phụ nữ làm chủ",
+      "mẹ-preneur",
+      "gái KD",
+      "chủ shop",
+      "ex-corporate",
+      "đứa newbie tech",
+      "mẹ bỉm làm content",
+      "phụ nữ tự do"
+    ],
+    "repeated_words": [
+      "tự do tài chính",
+      "tự chủ",
+      "đóng gói",
+      "biến kiến thức thành tiền",
+      "passive income",
+      "sản phẩm số",
+      "funnel",
+      "email list",
+      "automation",
+      "lú tech",
+      "kiệt sức",
+      "scale",
+      "burn out",
+      "gia đình",
+      "balance",
+      "ngại lộ mặt",
+      "lùa gà",
+      "MLM",
+      "viral mà không bán được",
+      "launch flop"
+    ],
+    "metaphors": [
+      "build doanh nghiệp như xây nhà — móng phải chắc",
+      "kiến thức nằm trong đầu là mỏ vàng chưa khai",
+      "MXH như cánh đồng cày mãi không gặt",
+      "viral mà không bán được như bắt cá rồi để tuột tay",
+      "email list như tài sản còn lại khi FB sập",
+      "1-1 như đẩy xe đẩy lên dốc — cohort như thuê xe nâng",
+      "chạy DN truyền thống như nuôi con — cứ bám 24/7"
+    ],
+    "verbatim_bank_examples": [
+      "em có kiến thức nhưng không biết bán",
+      "viral được mà inbox toàn hỏi rồi biến chị ơi",
+      "em sợ tech lắm chị ơi, nghe Zapier là đứng hình",
+      "em không có thời gian học tool đâu, mỗi tối còn 1h",
+      "em muốn bán mà ngại lộ mặt",
+      "em ngại bị nói là lùa gà",
+      "audience 30k mà email list em = 0 luôn",
+      "em launch khoá lần 1 chỉ có 2 người mua, nhục lắm chị",
+      "em làm mãi mà không thoát được giờ — vẫn online 12h/ngày",
+      "em copy script Maria mà sao em làm không ra tiền",
+      "em đang bán dịch vụ 1-1 mà kiệt sức rồi, muốn đóng gói thành khoá nhưng không biết bắt đầu",
+      "em có 10 năm chuyên môn mà viết outline khoá học không nổi 3 dòng",
+      "em sợ launch flop xong bạn bè cười",
+      "em muốn vừa làm vừa chăm con, không phải mãi chạy ngoài đường",
+      "em chạy DN bánh kem 5 năm mà vẫn nghèo thời gian"
+    ]
+  },
+  "common_insights_to_explore": [
+    {
+      "type": "tension",
+      "hint": "Muốn 'tự do tài chính' VÀ 'tự chủ thời gian' — nhưng bắt đầu kinh doanh online 6 tháng đầu phải làm việc gấp đôi DN truyền thống. Hai cái pull theo hướng ngược."
+    },
+    {
+      "type": "tension",
+      "hint": "Muốn 'build personal brand' VÀ 'không muốn lộ mặt / không muốn bị nhìn lùa gà' — đặc biệt nhóm ex-corporate sợ đồng nghiệp cũ thấy."
+    },
+    {
+      "type": "contradiction",
+      "hint": "Nói 'tôi giúp phụ nữ tự chủ' nhưng caption copy giống 100 coach khác (cùng quote, cùng list 5 bước) → ngầm gửi tín hiệu 'tôi cũng đám đông'."
+    },
+    {
+      "type": "contradiction",
+      "hint": "Có 5-15 năm chuyên môn nhưng tự gọi mình là 'newbie tech' → coi nhẹ giá trị bản thân, định giá thấp."
+    },
+    {
+      "type": "say_vs_do",
+      "hint": "Nói 'tôi đầu tư vào bản thân' nhưng đợi 'sẵn sàng' để launch 12 tháng — mua 5 khoá học khác về cùng chủ đề mà không launch sản phẩm của mình."
+    },
+    {
+      "type": "say_vs_do",
+      "hint": "Nói 'tôi muốn build email list' nhưng vẫn post lead magnet trên FB không có CTA email opt-in → đang kéo audience về nền tảng mượn."
+    },
+    {
+      "type": "surprise_myth_bust",
+      "hint": "Phụ nữ ngại lộ mặt vẫn build được 6-figure brand qua voice-over reel + carousel — 30% top creator VN không bao giờ up mặt."
+    },
+    {
+      "type": "surprise_myth_bust",
+      "hint": "Sản phẩm số đầu tiên KHÔNG phải khoá $300 — phải là tripwire $1 worksheet (Maria Wendt mô hình). Bán $1 trước để filter buyer thật, sau đó upsell."
+    },
+    {
+      "type": "aspiration",
+      "hint": "Sáng dậy mở email thấy báo bán khoá lúc 3h sáng (đang ngủ), pha cafe ngồi ban công với con, không phải mở Inbox FB lo trả 50 DM."
+    },
+    {
+      "type": "objection",
+      "hint": "Sợ học viên không có kết quả → vì chưa hiểu cohort khác 1-1: cohort dùng peer support thay coach 1-1 effort, kết quả khác chuẩn."
+    },
+    {
+      "type": "objection",
+      "hint": "Sợ 'tham tiền' khi định giá $300 → vì so với 1h coffee với chuyên gia VN bị undervalue. Cần reframe: $300 = 12 tháng access vs 2h consulting offline."
+    },
+    {
+      "type": "transformation",
+      "hint": "Từ 'shop bánh kem 100tr/tháng + bám tiệm 12h/ngày + không thoát được' → 'mini-course $37 bán passive 30 đơn/tháng + 1 cohort $300 mỗi quý + làm việc 4 ngày/tuần'."
+    },
+    {
+      "type": "identity_shift",
+      "hint": "Phải nhận mình là 'người đi trước đã làm được' — không phải 'người đang học cùng audience'. Kiến thức 5+ năm đủ đóng gói, không cần thêm cert."
+    }
+  ],
+  "verification_checklist": [
+    "Verify mỗi pain trong pains_priors có quote thật từ data source (FB comment / IG DM / 1-1 interview).",
+    "Verify income_tier khớp khách target — 'shop 30tr/tháng' vs 'coach 100tr/tháng' có objection-to-pricing rất khác.",
+    "Verify life_stage chính xác — 'ex-corporate 6 tháng' vs 'mom-preneur 5 năm' vs 'chủ DN truyền thống 10 năm' có pain rất khác về tech-fluency và time-availability.",
+    "Verify voice.repeated_words xuất hiện thật trong data, đặc biệt 'lú tech', 'lùa gà', 'viral mà không bán được' — đây là markers của niche.",
+    "Verify nhóm 'ngại lộ mặt' chiếm tỷ lệ thực tế bao nhiêu — quyết định có cần thêm pillar 'voice-over content' không.",
+    "Bỏ qua mọi entry không verify được — đừng ship priors như observed."
+  ]
+}

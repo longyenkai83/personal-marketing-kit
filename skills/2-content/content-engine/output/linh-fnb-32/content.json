@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_fnb_cafe_32",
+  "generated_at": "2026-04-25T16:30:00+07:00",
+  "posts": [
+    {
+      "id": "post_001",
+      "format": "ig_caption",
+      "formula": "hot_take",
+      "goal": "awareness",
+      "hook_id": "h10",
+      "insight_id": "i4",
+      "language": "vi",
+      "title": "Hot Take — Cafe owner caption thật > đẹp",
+      "body": {
+        "full_text": "Hot take: cafe owner càng giỏi caption càng KHÔNG cần đẹp. Cần thật.\n\nMọi người tin: photo đẹp + caption thơ = quán đắt khách. Tin sai.\n\nMình audit 50 page cafe specialty Saigon tháng này. Quán có caption 'thật' (có ngày tệ, có hạt fail, có khách khó tính) có conversion (save → visit thật) cao gấp 3 lần quán caption đẹp generic.\n\nLý do? Người ta save photo đẹp để gửi bạn. Họ visit quán có CON NGƯỜI sau caption.\n\n'Latte art số 18 — cà phê là tâm trạng' — save cao, visit thấp. Vì 200 quán khác đã viết.\n\n'Hôm nay pha hỏng 12 ly vì hạt mới đổi roast — Vy quay lại lần 3 vẫn đợi 8 phút mà không cau' — save thấp hơn, nhưng inbox cao gấp 4. Vì lạ. Vì có người, có buổi, có vấn đề.\n\nHệ quả: tuần này thay 1 latte art shot bằng 1 story 'có ngày tệ'. Test 4 bài. Đo inbox.\n\nCmt 'THẬT' nếu đồng ý — mình gửi 5 mẫu caption thật mình từng dùng.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Cmt 'THẬT' nếu đồng ý — mình gửi 5 mẫu caption thật mình từng dùng.",
+        "keyword": "THẬT",
+        "link": ""
+      },
+      "hashtags": [
+        "#cafespecialtyvn",
+        "#cafeowner",
+        "#contentcafe",
+        "#caphesgvn",
+        "#specialtycoffee",
+        "#cafecontent",
+        "#luucafe",
+        "#barista",
+        "#cafestoryvn",
+        "#contentforfnb"
+      ],
+      "character_count": 1054,
+      "word_count": 195,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_002",
+      "format": "ig_caption",
+      "formula": "pas",
+      "goal": "lead",
+      "hook_id": "h17",
+      "insight_id": "i6",
+      "language": "vi",
+      "title": "PAS — 1.5tr không phải 25 ly cà phê",
+      "body": {
+        "full_text": "Bạn nghĩ '1.5tr là 25 ly cà phê'. Sai chuẩn so sánh rồi.\n\nKhi mình nói giá khoá Barista mình đang build (1.5tr / 8 buổi), 7/10 người nhìn vào ly cà phê họ vừa cầm — và nghĩ 'đắt'. Họ so sai.\n\nLy cà phê = product tiêu dùng, hết là hết. Khoá đào tạo = đầu tư kỹ năng cả đời.\n\nSo đúng: 1.5tr = 8% lương 1 tháng của barista mới (lương trung bình barista mới ở Saigon 8-12tr/tháng). Đầu tư 8% lương 1 tháng → mở 1 nghề mới. ROI 1 tháng work. Sau đó là free gain mỗi tháng.\n\nNếu bạn vẫn so 1.5tr với 25 ly cà phê — đó là dấu hiệu bạn đang ở 'mindset người uống cà phê', chưa shift sang 'người sống bằng cà phê'.\n\nKhoá Barista cho người mới của Lưu Cafe — 8 buổi, 1.5tr, early bird tới 31/5 còn giảm 200k.\n\nKhông phù hợp cho barista pro. Phù hợp cho người đang nghĩ pivot nghề.\n\nCmt 'BARISTA' để mình gửi syllabus + lịch.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Cmt 'BARISTA' để mình gửi syllabus + lịch. Early bird tới 31/5 giảm 200k.",
+        "keyword": "BARISTA",
+        "link": ""
+      },
+      "hashtags": [
+        "#khoabarista",
+        "#baristavn",
+        "#nghebarista",
+        "#cafespecialtyvn",
+        "#dautukynang",
+        "#luucafe",
+        "#daohaobarista",
+        "#pivotnghe",
+        "#caphesgvn",
+        "#fnbtraining"
+      ],
+      "character_count": 992,
+      "word_count": 195,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_003",
+      "format": "ig_caption",
+      "formula": "bab",
+      "goal": "sale",
+      "hook_id": "h19",
+      "insight_id": "i7",
+      "language": "vi",
+      "title": "BAB — Diversify revenue cafe owner",
+      "body": {
+        "full_text": "Trước: Lưu Cafe doanh thu 120tr/tháng đều, biên 20% = 24tr/tháng. Nhưng 80% từ thứ 6-CN. Thứ 2-5 vắng. Tháng nào trời mưa, hỏng. Tháng nào trend mới, khách flock chỗ khác. 24tr nhìn ổn — thực ra bấp bênh từng tuần.\n\nSau khoá Barista đợt 1: thêm 45tr revenue (1.5tr × 30 học viên), biên gross 70% sau chi phí giảng + workbook = 31tr profit khoá.\n\nTổng 55tr/tháng. Quan trọng hơn: 31tr này KHÔNG phụ thuộc thời tiết, trend, chỗ ngồi. Diversified.\n\nCây cầu: 60h training một lần → revenue 45tr. Đòn bẩy 750k/h. Repeat mỗi quý → 180tr/năm thêm vào cafe.\n\nĐiều quan trọng: khoá đầu KHÔNG cần hoàn hảo. Mình bán beta 5 người đầu giá 30% (450k thay 1.5tr). Họ là co-creator. Khoá 2 mới là 'launch'.\n\nMình đang tuyển 8 cafe owner Saigon vào nhóm 'Cafe + Khoá Lab' tháng 5 — 6 tuần build khoá đầu của bạn cùng mình + Lưu Cafe.\n\nCmt 'LAB' mình gửi chi tiết. Slot 8 — đã đầy 4.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Cmt 'LAB' mình gửi chi tiết. Slot 8 — đã đầy 4.",
+        "keyword": "LAB",
+        "link": ""
+      },
+      "hashtags": [
+        "#cafeowner",
+        "#fnbsaigon",
+        "#diversifyrevenue",
+        "#cafelab",
+        "#cafetraining",
+        "#luucafe",
+        "#cafe2incomes",
+        "#cafestrategy",
+        "#cafespecialtyvn",
+        "#scalecafe"
+      ],
+      "character_count": 1090,
+      "word_count": 213,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_004",
+      "format": "reels_30s",
+      "formula": "hero",
+      "goal": "awareness",
+      "hook_id": "h22",
+      "insight_id": "i8",
+      "language": "vi",
+      "title": "Hero — Identity shift 'thầy dạy nghề'",
+      "body": {
+        "full_text": "",
+        "beats": [
+          {
+            "label": "hook",
+            "text": "Học viên đầu tiên hỏi: 'Chị làm nghề lâu chưa?' Tôi suýt nói 'em mới mở quán 2 năm thôi'.",
+            "duration_sec": 4.5
+          },
+          {
+            "label": "ordinary_world",
+            "text": "Tháng 3/2024. Tôi mở Lưu Cafe được 23 tháng. 8.2k follow IG. Vẫn tự gọi mình 'chủ quán biết pha thôi'.",
+            "duration_sec": 5.5
+          },
+          {
+            "label": "call",
+            "text": "Có người nhắn: 'Chị mở khoá Barista đi, em muốn học chị'. Tôi cảm thấy phải 'thú nhận' — 'em mới làm 2 năm thôi nha em'. Suýt nói. Rồi dừng.",
+            "duration_sec": 6.5
+          },
+          {
+            "label": "threshold",
+            "text": "Tôi nhận ra: vấn đề không phải tôi 'thiếu thâm niên'. Là tôi đang nghĩ mình 'chỉ là cafe owner', không phải 'thầy dạy nghề'. Sai identity, không pricing nổi.",
+            "duration_sec": 6.5
+          },
+          {
+            "label": "trial",
+            "text": "Thầy không phải master 20 năm. Thầy là người đã đi 2 năm đoạn họ đang muốn đi + biết tránh 3 cái bẫy chính. Đó đủ.",
+            "duration_sec": 5.0
+          },
+          {
+            "label": "cta",
+            "text": "Cmt 'THẦY' nếu bạn cũng là cafe owner đang ở chỗ tôi từng đứng.",
+            "duration_sec": 2.0
+          }
+        ]
+      },
+      "cta": {
+        "text": "Cmt 'THẦY' nếu bạn cũng là cafe owner đang ở chỗ tôi từng đứng.",
+        "keyword": "THẦY",
+        "link": ""
+      },
+      "hashtags": [
+        "#cafeowner",
+        "#impostersyndrome",
+        "#cafestoryvn",
+        "#identityshift",
+        "#firsttimecafeowner",
+        "#luucafe",
+        "#nghebarista",
+        "#cafespecialtyvn"
+      ],
+      "duration_sec_estimated": 30.0,
+      "word_count": 105,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    }
+  ]
+}

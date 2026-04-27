@@ -1,0 +1,840 @@
+{
+  "_meta": {
+    "name": "Women Biz VN — 72 Hook Bank",
+    "version": "1.0",
+    "niche": "women-biz-vn",
+    "niche_description": "Phụ nữ Việt Nam có chuyên môn/dịch vụ/kỹ năng, đang muốn đóng gói thành sản phẩm số bán internet (mô hình Maria Wendt cho thị trường VN)",
+    "source": "Kallaway Bài Tập #9 — 18 Content LEVEL 1 × 4 Thị Trường Lạnh/Ấm/Nóng/Bán Hàng",
+    "total_hooks": 72,
+    "structure": "18 topics × 4 temperatures = 72 hooks",
+    "framework_distribution": {
+      "Contrarian": 19,
+      "Investigator": 14,
+      "Teacher": 21,
+      "Experimenter": 6,
+      "Fortune Teller": 9,
+      "Case Study": 11,
+      "Direct Offer": 18
+    },
+    "topic_groups": {
+      "Nhận thức": ["T1", "T2", "T3", "T4", "T5", "T6"],
+      "Tâm lý": ["T7", "T8", "T9", "T10"],
+      "Hướng dẫn": ["T11", "T12", "T13", "T14"],
+      "Hành động": ["T15", "T16", "T17", "T18"]
+    },
+    "verified": true,
+    "language": "vi"
+  },
+
+  "hooks": [
+    {
+      "id": "wbiz_T1_lanh_contrarian",
+      "topic_id": "T1",
+      "topic_title": "Bạn giỏi nhưng chưa kiếm được tiền vì thiếu điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn học nhiều, làm việc chăm chỉ, và chuyên môn của bạn thật sự có giá. Nhưng tài khoản ngân hàng không phản ánh điều đó. Lý do không phải bạn chưa giỏi đủ — mà bạn thiếu đúng 1 thứ mà người giỏi thường bỏ qua nhất.",
+      "cta": "Comment 'THIẾU GÌ' để tôi chỉ cho bạn.",
+      "tags": ["chuyên môn", "monetize", "kiến thức", "thu nhập"]
+    },
+    {
+      "id": "wbiz_T1_am_teacher",
+      "topic_id": "T1",
+      "topic_title": "Bạn giỏi nhưng chưa kiếm được tiền vì thiếu điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Tôi từng nghĩ cứ giỏi thêm là sẽ ra tiền. Sau 2 năm học, tôi nhận ra: không phải vậy. Đây là 3 thứ người giỏi thường thiếu — và chỉ cần bổ sung 1 trong 3 là thu nhập thay đổi ngay.",
+      "cta": "Lưu bài này để xem lại khi bắt đầu xây thương hiệu.",
+      "tags": ["chuyên môn", "thu nhập", "personal brand"]
+    },
+    {
+      "id": "wbiz_T1_nong_investigator_casestudy",
+      "topic_id": "T1",
+      "topic_title": "Bạn giỏi nhưng chưa kiếm được tiền vì thiếu điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Investigator + Case Study",
+      "hook_text": "Tôi phỏng vấn 20 phụ nữ giỏi nghề nhưng thu nhập dưới 15 triệu. Tất cả đều thiếu đúng 1 thứ — không phải follower, không phải ads. Chị Hà (kế toán, 12 năm kinh nghiệm) tìm ra thứ đó và kiếm 40 triệu tháng đầu từ chuyên môn online.",
+      "cta": "Nhắn 'GIỎI' để biết thứ đó là gì và cách bổ sung.",
+      "tags": ["case study", "kế toán", "chuyên môn", "monetize"]
+    },
+    {
+      "id": "wbiz_T1_banhang_directoffer",
+      "topic_id": "T1",
+      "topic_title": "Bạn giỏi nhưng chưa kiếm được tiền vì thiếu điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Nếu bạn giỏi nhưng chưa ra tiền từ chuyên môn — vấn đề không phải ở kỹ năng. Tôi sẽ chỉ cho bạn đúng thứ còn thiếu và cách bổ sung nó trong 30 ngày đầu tiên của chương trình.",
+      "cta": "Đăng ký tư vấn miễn phí hôm nay.",
+      "tags": ["offer", "30 ngày", "chương trình"]
+    },
+
+    {
+      "id": "wbiz_T2_lanh_contrarian",
+      "topic_id": "T2",
+      "topic_title": "Sai lầm lớn nhất khi bắt đầu xây thương hiệu cá nhân",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Hầu hết phụ nữ bắt đầu xây thương hiệu bằng cách làm đẹp profile, mua thiết bị xịn, rồi đăng ảnh đẹp. Tất cả những việc đó có thể làm sau. Sai lầm lớn nhất là làm chúng trước khi biết mình đang nói chuyện với ai.",
+      "cta": "Comment 'SAI LẦM' để tôi gửi checklist 3 việc cần làm trước tiên.",
+      "tags": ["personal brand", "sai lầm", "audience"]
+    },
+    {
+      "id": "wbiz_T2_am_teacher",
+      "topic_id": "T2",
+      "topic_title": "Sai lầm lớn nhất khi bắt đầu xây thương hiệu cá nhân",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Tôi đã xây thương hiệu sai trong 6 tháng đầu. Đây là sai lầm tôi mắc — và hầu hết người mới đều mắc — dẫn đến 6 tháng không có 1 khách hàng nào từ mạng xã hội.",
+      "cta": "Lưu bài để tránh mất 6 tháng như tôi.",
+      "tags": ["personal brand", "sai lầm", "kinh nghiệm"]
+    },
+    {
+      "id": "wbiz_T2_nong_casestudy",
+      "topic_id": "T2",
+      "topic_title": "Sai lầm lớn nhất khi bắt đầu xây thương hiệu cá nhân",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Mai mất 8 tháng xây thương hiệu theo cách sai. Tháng thứ 9, chị thay đổi 1 điều — và có 3 khách hàng đầu tiên trong 2 tuần. Sai lầm chị từng mắc chính là thứ hầu hết mọi người đang làm ngay bây giờ.",
+      "cta": "Nhắn 'MAI' để tôi kể câu chuyện đầy đủ và cách chị sửa lại.",
+      "tags": ["case study", "personal brand", "transformation"]
+    },
+    {
+      "id": "wbiz_T2_banhang_directoffer",
+      "topic_id": "T2",
+      "topic_title": "Sai lầm lớn nhất khi bắt đầu xây thương hiệu cá nhân",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này bắt đầu bằng việc chỉ cho bạn đúng sai lầm cần tránh — trước khi bạn đăng 1 bài nào. Đó là lý do học viên tôi ra kết quả sớm hơn những người tự học.",
+      "cta": "Đăng ký để không lặp lại sai lầm mà hầu hết người mới đều mắc.",
+      "tags": ["offer", "chương trình", "sai lầm"]
+    },
+
+    {
+      "id": "wbiz_T3_lanh_investigator",
+      "topic_id": "T3",
+      "topic_title": "Tại sao học rất nhiều nhưng vẫn không ra tiền?",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Investigator",
+      "hook_text": "Có một nghịch lý mà ít ai nói thẳng: càng học nhiều, càng khó ra tiền. Không phải vì học vô ích — mà vì học tạo ra ảo giác tiến bộ trong khi thứ thật sự tạo ra tiền lại cần thứ khác.",
+      "cta": "Comment 'HỌC' để tôi giải thích nghịch lý này.",
+      "tags": ["nghịch lý", "học", "monetize", "ảo giác tiến bộ"]
+    },
+    {
+      "id": "wbiz_T3_am_experimenter",
+      "topic_id": "T3",
+      "topic_title": "Tại sao học rất nhiều nhưng vẫn không ra tiền?",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Experimenter",
+      "hook_text": "Tôi thử 1 thí nghiệm: ngừng học trong 30 ngày và chỉ làm 1 việc với những gì đã biết. Kết quả: thu nhập tháng đó cao hơn 6 tháng học trước đó cộng lại. Đây là thứ tôi học được từ thí nghiệm đó.",
+      "cta": "Thử thách 30 ngày — không học thêm, chỉ áp dụng. Bạn dám không?",
+      "tags": ["thí nghiệm", "30 ngày", "thu nhập"]
+    },
+    {
+      "id": "wbiz_T3_nong_fortuneteller",
+      "topic_id": "T3",
+      "topic_title": "Tại sao học rất nhiều nhưng vẫn không ra tiền?",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Fortune Teller",
+      "hook_text": "Một năm nữa, những người tiếp tục học mà không bắt đầu bán sẽ có thêm 3-5 khóa học mới trong máy tính — và vẫn 0 đồng từ chuyên môn online. Người bắt đầu bán từ những gì đã biết hôm nay sẽ có data, case study, và thu nhập thực.",
+      "cta": "Nhắn 'BẮT ĐẦU' nếu bạn đã học đủ rồi và muốn bắt đầu kiếm tiền.",
+      "tags": ["tương lai", "học", "monetize", "1 năm"]
+    },
+    {
+      "id": "wbiz_T3_banhang_directoffer",
+      "topic_id": "T3",
+      "topic_title": "Tại sao học rất nhiều nhưng vẫn không ra tiền?",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này không dạy thêm lý thuyết. Tôi lấy thứ bạn đã biết và giúp bạn đóng gói, định giá, và bán nó — trong 30 ngày. Không học thêm. Bắt đầu bán.",
+      "cta": "Đăng ký hôm nay — học viên đã biết đủ, chỉ cần hệ thống.",
+      "tags": ["offer", "chương trình", "30 ngày", "đóng gói"]
+    },
+
+    {
+      "id": "wbiz_T4_lanh_contrarian",
+      "topic_id": "T4",
+      "topic_title": "Bạn không thiếu kiến thức – bạn thiếu hệ thống",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn không cần học thêm. Bạn cần 1 hệ thống biến thứ bạn biết thành thu nhập tự động. Hầu hết phụ nữ giỏi nghề đang thiếu thứ này — không phải kiến thức.",
+      "cta": "Comment 'HỆ THỐNG' để tôi giải thích hệ thống đó trông như thế nào.",
+      "tags": ["hệ thống", "kiến thức", "automation"]
+    },
+    {
+      "id": "wbiz_T4_am_teacher",
+      "topic_id": "T4",
+      "topic_title": "Bạn không thiếu kiến thức – bạn thiếu hệ thống",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Kiến thức không ra tiền. Hệ thống mới ra tiền. Đây là sự khác biệt: kiến thức là thứ bạn biết — hệ thống là thứ khiến người khác trả tiền cho bạn vì thứ bạn biết, đều đặn, tự động.",
+      "cta": "Lưu bài này — đây là framework bạn cần hiểu trước khi làm bất cứ điều gì.",
+      "tags": ["hệ thống", "framework", "thu nhập"]
+    },
+    {
+      "id": "wbiz_T4_nong_investigator",
+      "topic_id": "T4",
+      "topic_title": "Bạn không thiếu kiến thức – bạn thiếu hệ thống",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Investigator",
+      "hook_text": "Tôi so sánh 2 phụ nữ cùng nghề, cùng kỹ năng, cùng bắt đầu từ số 0: 1 người kiếm 45 triệu/tháng, 1 người 8 triệu. Sự khác biệt duy nhất: người thứ nhất có hệ thống, người thứ hai chỉ có kiến thức.",
+      "cta": "Nhắn 'SO SÁNH' để tôi kể chi tiết sự khác biệt trong hệ thống của họ.",
+      "tags": ["so sánh", "hệ thống", "case study"]
+    },
+    {
+      "id": "wbiz_T4_banhang_directoffer",
+      "topic_id": "T4",
+      "topic_title": "Bạn không thiếu kiến thức – bạn thiếu hệ thống",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này xây cho bạn đúng 1 hệ thống: từ chuyên môn → sản phẩm → bán hàng tự động. Bạn không cần học thêm kiến thức — bạn cần hệ thống để bán thứ đã biết.",
+      "cta": "Đăng ký — và lần đầu tiên bạn sẽ có hệ thống thật sự.",
+      "tags": ["offer", "hệ thống", "chương trình"]
+    },
+
+    {
+      "id": "wbiz_T5_lanh_investigator",
+      "topic_id": "T5",
+      "topic_title": "90% phụ nữ kinh doanh thất bại khi lên online vì…",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Investigator",
+      "hook_text": "9 trong 10 phụ nữ có chuyên môn thử bán online và thất bại trong 3 tháng đầu. Không phải vì họ không giỏi. Không phải vì thiếu vốn. Lý do thực sự ít ai nói ra — nhưng khi biết, bạn sẽ ngạc nhiên vì nó đơn giản đến vậy.",
+      "cta": "Comment '90%' để tôi tiết lộ lý do thực sự đó.",
+      "tags": ["thất bại", "thống kê", "online"]
+    },
+    {
+      "id": "wbiz_T5_am_teacher",
+      "topic_id": "T5",
+      "topic_title": "90% phụ nữ kinh doanh thất bại khi lên online vì…",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Tôi đã thất bại lần đầu tiên lên online vì đúng lý do này. Và khi tôi nói chuyện với 30 phụ nữ khác, hầu hết đều thất bại vì lý do tương tự. Đây là 3 điều tôi thay đổi trong lần thứ 2.",
+      "cta": "Lưu để tránh lặp lại lỗi mà 90% người mắc phải.",
+      "tags": ["thất bại", "kinh nghiệm", "transformation"]
+    },
+    {
+      "id": "wbiz_T5_nong_contrarian_casestudy",
+      "topic_id": "T5",
+      "topic_title": "90% phụ nữ kinh doanh thất bại khi lên online vì…",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Contrarian + Case Study",
+      "hook_text": "Mọi người nói rằng thất bại khi lên online là do thiếu followers hoặc không biết chạy ads. Sai hoàn toàn. Chị Thảo thất bại 2 lần với 10.000 followers và ngân sách ads. Lần thứ 3, chị thay đổi đúng 1 thứ — và kiếm được 35 triệu đầu tiên.",
+      "cta": "Nhắn 'THẢO' để biết thứ chị thay đổi là gì.",
+      "tags": ["case study", "thất bại", "ads", "transformation"]
+    },
+    {
+      "id": "wbiz_T5_banhang_directoffer",
+      "topic_id": "T5",
+      "topic_title": "90% phụ nữ kinh doanh thất bại khi lên online vì…",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này được thiết kế để bạn không thuộc nhóm 90% đó. Tôi chỉ cho bạn đúng lý do tại sao người giỏi thất bại khi lên online — và hệ thống để không rơi vào bẫy đó.",
+      "cta": "Đăng ký để thuộc nhóm 10% thành công.",
+      "tags": ["offer", "thất bại", "chương trình"]
+    },
+
+    {
+      "id": "wbiz_T6_lanh_contrarian",
+      "topic_id": "T6",
+      "topic_title": "Đừng bắt đầu xây thương hiệu nếu bạn chưa biết điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Nếu bạn đang chuẩn bị bắt đầu xây thương hiệu cá nhân — dừng lại 5 phút. Không phải để không bắt đầu. Mà để không lãng phí 6 tháng đầu tiên như hầu hết mọi người. Đây là thứ cần biết trước khi đăng bài đầu tiên.",
+      "cta": "Comment 'DỪNG LẠI' để tôi chia sẻ thứ đó với bạn.",
+      "tags": ["personal brand", "bắt đầu", "lãng phí"]
+    },
+    {
+      "id": "wbiz_T6_am_teacher",
+      "topic_id": "T6",
+      "topic_title": "Đừng bắt đầu xây thương hiệu nếu bạn chưa biết điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Tôi ước mình biết điều này trước khi bắt đầu xây thương hiệu. Nó không phức tạp. Nhưng không biết nó = làm đúng mọi thứ theo thứ tự sai = không ra kết quả dù nỗ lực rất nhiều.",
+      "cta": "Lưu bài — đây là thứ tôi muốn ai cũng biết trước khi bắt đầu.",
+      "tags": ["personal brand", "bắt đầu", "thứ tự"]
+    },
+    {
+      "id": "wbiz_T6_nong_fortuneteller",
+      "topic_id": "T6",
+      "topic_title": "Đừng bắt đầu xây thương hiệu nếu bạn chưa biết điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "nong",
+      "framework": "Fortune Teller",
+      "hook_text": "6 tháng tới, những người bắt đầu xây thương hiệu mà biết điều này sẽ có lượng người theo dõi đúng, tỷ lệ chuyển đổi cao, và thu nhập thực. Những người bắt đầu mà không biết — sẽ có followers nhưng không có tiền.",
+      "cta": "Nhắn '6 THÁNG' nếu bạn muốn thuộc nhóm đầu tiên.",
+      "tags": ["tương lai", "personal brand", "6 tháng", "conversion"]
+    },
+    {
+      "id": "wbiz_T6_banhang_directoffer",
+      "topic_id": "T6",
+      "topic_title": "Đừng bắt đầu xây thương hiệu nếu bạn chưa biết điều này",
+      "topic_group": "Nhận thức",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Buổi học đầu tiên trong chương trình chỉ dạy 1 thứ: điều bạn cần biết trước khi làm bất cứ điều gì khác. Đó là nền tảng mà không có, mọi nỗ lực khác đều bị lãng phí.",
+      "cta": "Đăng ký để bắt đầu đúng cách từ đầu.",
+      "tags": ["offer", "chương trình", "nền tảng"]
+    },
+
+    {
+      "id": "wbiz_T7_lanh_contrarian",
+      "topic_id": "T7",
+      "topic_title": "Bạn không cần giỏi nhất mới bắt đầu",
+      "topic_group": "Tâm lý",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn đang chờ đến khi 'giỏi hơn' để bắt đầu bán. Nhưng người đang bán được hôm nay không phải người giỏi nhất trong nghề — họ là người bắt đầu sớm nhất. Giỏi nhất không ra tiền. Sớm nhất mới ra tiền.",
+      "cta": "Comment 'BẮT ĐẦU' nếu bạn đã sẵn sàng.",
+      "tags": ["tâm lý", "imposter", "bắt đầu"]
+    },
+    {
+      "id": "wbiz_T7_am_teacher",
+      "topic_id": "T7",
+      "topic_title": "Bạn không cần giỏi nhất mới bắt đầu",
+      "topic_group": "Tâm lý",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Bạn cần giỏi hơn khách hàng của mình 1 bước — không cần giỏi hơn đồng nghiệp 10 bước. Nếu bạn biết thứ người khác chưa biết và họ cần biết — đó là đủ để bắt đầu bán.",
+      "cta": "Lưu bài — đây là cách định nghĩa lại 'đủ giỏi để bắt đầu'.",
+      "tags": ["tâm lý", "đủ giỏi", "khách hàng"]
+    },
+    {
+      "id": "wbiz_T7_nong_casestudy",
+      "topic_id": "T7",
+      "topic_title": "Bạn không cần giỏi nhất mới bắt đầu",
+      "topic_group": "Tâm lý",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Lan bắt đầu dạy nấu ăn khi chưa có bằng đầu bếp. Chị Hương bắt đầu coaching khi vẫn còn đang học. Cả 2 đều có học viên trả tiền trong tháng đầu. Họ không giỏi nhất — nhưng họ biết đúng thứ đúng người cần.",
+      "cta": "Nhắn 'LAN' hoặc 'HƯƠNG' để tôi kể câu chuyện của họ.",
+      "tags": ["case study", "tâm lý", "bắt đầu", "coaching"]
+    },
+    {
+      "id": "wbiz_T7_banhang_directoffer",
+      "topic_id": "T7",
+      "topic_title": "Bạn không cần giỏi nhất mới bắt đầu",
+      "topic_group": "Tâm lý",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Trong chương trình này, tôi sẽ giúp bạn nhận ra bạn đã đủ giỏi để bắt đầu — ngay bây giờ. Và đưa ra lộ trình để bán chuyên môn đó cho đúng người ngay trong tháng đầu.",
+      "cta": "Đăng ký nếu bạn đã học đủ và muốn bắt đầu bán.",
+      "tags": ["offer", "chương trình", "lộ trình"]
+    },
+
+    {
+      "id": "wbiz_T8_lanh_contrarian",
+      "topic_id": "T8",
+      "topic_title": "Không dám quay video? Đây là cách bắt đầu không áp lực",
+      "topic_group": "Tâm lý",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Video đầu tiên của tôi quay trong phòng ngủ, ánh sáng vàng, tay run. Tôi xấu hổ với nó. Nó có 38.000 lượt xem và mang về 4 khách hàng đầu tiên. Bạn không cần tự tin để bắt đầu — bạn cần bắt đầu để có tự tin.",
+      "cta": "Comment 'VIDEO' để nhận script 3 câu mở đầu không cần tự tin.",
+      "tags": ["video", "tâm lý", "ngại lộ mặt", "tự tin"]
+    },
+    {
+      "id": "wbiz_T8_am_teacher",
+      "topic_id": "T8",
+      "topic_title": "Không dám quay video? Đây là cách bắt đầu không áp lực",
+      "topic_group": "Tâm lý",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Đây là quy trình tôi dùng khi vẫn còn ngại camera: (1) Viết 1 câu mở đầu. (2) Nhìn vào camera và đọc câu đó. (3) Đăng lên. Video thứ 5 bạn sẽ không còn ngại nữa.",
+      "cta": "Thử quy trình này với video đầu tiên hôm nay.",
+      "tags": ["video", "quy trình", "ngại camera"]
+    },
+    {
+      "id": "wbiz_T8_nong_casestudy_vulnerability",
+      "topic_id": "T8",
+      "topic_title": "Không dám quay video? Đây là cách bắt đầu không áp lực",
+      "topic_group": "Tâm lý",
+      "temperature": "nong",
+      "framework": "Case Study + Vulnerability",
+      "hook_text": "Chị Mai run tay khi bấm đăng video đầu tiên. Chị định xóa đi 2 lần. Sau 90 ngày: 18 triệu/tháng từ khóa học online. Câu chị nói với tôi: 'Em ước mình đăng sớm hơn 6 tháng.'",
+      "cta": "Nhắn 'MAI' để tôi kể quy trình 3 bước chị dùng để vượt qua nỗi ngại đó.",
+      "tags": ["case study", "video", "transformation", "ngại"]
+    },
+    {
+      "id": "wbiz_T8_banhang_directoffer",
+      "topic_id": "T8",
+      "topic_title": "Không dám quay video? Đây là cách bắt đầu không áp lực",
+      "topic_group": "Tâm lý",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Buổi học thứ 1 trong chương trình: tôi giúp bạn quay và đăng video đầu tiên. Không cần chuẩn bị. Không cần thiết bị xịn. Chỉ cần điện thoại và 30 phút.",
+      "cta": "Đăng ký — và video đầu tiên của bạn sẽ online trong ngày học đầu tiên.",
+      "tags": ["offer", "video", "30 phút", "điện thoại"]
+    },
+
+    {
+      "id": "wbiz_T9_lanh_contrarian",
+      "topic_id": "T9",
+      "topic_title": "Không ai quan tâm bạn đâu – và đó là lợi thế",
+      "topic_group": "Tâm lý",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn đang sợ người khác chê khi xuất hiện trên mạng. Nhưng thực tế là: không ai đang nhìn bạn. Mọi người đang cuộn qua màn hình của mình. Đó không phải tin xấu — đó là tin tuyệt vời nhất bạn có thể nghe hôm nay.",
+      "cta": "Comment 'LỢI THẾ' để tôi giải thích tại sao điều này có lợi cho bạn.",
+      "tags": ["tâm lý", "sợ chê", "lợi thế"]
+    },
+    {
+      "id": "wbiz_T9_am_teacher",
+      "topic_id": "T9",
+      "topic_title": "Không ai quan tâm bạn đâu – và đó là lợi thế",
+      "topic_group": "Tâm lý",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Khi tôi nhận ra không ai thực sự đang theo dõi mình đủ kỹ để chê — tôi bắt đầu đăng nhiều hơn. Và đây là điều thú vị: khi bạn đăng nhiều hơn, đúng người bắt đầu để ý. Sai người thì thực sự không ai quan tâm.",
+      "cta": "Lưu bài — đây là tư duy giúp bạn vượt qua sợ hãi.",
+      "tags": ["tâm lý", "tư duy", "đăng bài"]
+    },
+    {
+      "id": "wbiz_T9_nong_fortuneteller",
+      "topic_id": "T9",
+      "topic_title": "Không ai quan tâm bạn đâu – và đó là lợi thế",
+      "topic_group": "Tâm lý",
+      "temperature": "nong",
+      "framework": "Fortune Teller",
+      "hook_text": "Một năm từ bây giờ: người biết 'không ai quan tâm' và dùng nó như lợi thế sẽ đăng bài thoải mái, test hook, và tích lũy audience. Người tiếp tục sợ bị chê sẽ vẫn ở chế độ 'chuẩn bị' như hôm nay.",
+      "cta": "Nhắn '1 NĂM' nếu bạn muốn là người đầu tiên.",
+      "tags": ["tương lai", "1 năm", "tâm lý", "audience"]
+    },
+    {
+      "id": "wbiz_T9_banhang_directoffer",
+      "topic_id": "T9",
+      "topic_title": "Không ai quan tâm bạn đâu – và đó là lợi thế",
+      "topic_group": "Tâm lý",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Một trong những thứ đầu tiên chúng ta làm trong chương trình: giải phóng bạn khỏi nỗi sợ bị chê. Không phải bằng lý thuyết — mà bằng cách đăng bài đầu tiên và thấy tận mắt rằng không ai quan tâm đến mức bạn tưởng.",
+      "cta": "Đăng ký để được giải phóng khỏi nỗi sợ đó.",
+      "tags": ["offer", "tâm lý", "sợ chê"]
+    },
+
+    {
+      "id": "wbiz_T10_lanh_investigator",
+      "topic_id": "T10",
+      "topic_title": "Bạn đang tự đánh giá thấp giá trị của mình",
+      "topic_group": "Tâm lý",
+      "temperature": "lanh",
+      "framework": "Investigator",
+      "hook_text": "Thứ bạn biết — những người không biết sẵn sàng trả tiền để học. Vấn đề không phải bạn không có giá trị — mà bạn chưa bao giờ nhìn thứ mình biết từ góc nhìn của người không biết nó.",
+      "cta": "Comment 'GIÁ TRỊ' để tôi giúp bạn nhìn lại chuyên môn theo cách mới.",
+      "tags": ["giá trị", "tâm lý", "góc nhìn"]
+    },
+    {
+      "id": "wbiz_T10_am_teacher",
+      "topic_id": "T10",
+      "topic_title": "Bạn đang tự đánh giá thấp giá trị của mình",
+      "topic_group": "Tâm lý",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Đây là bài tập tôi cho mọi học viên làm trong ngày đầu: Liệt kê 10 thứ bạn biết làm mà người xung quanh thường hỏi bạn. Mỗi thứ trong danh sách đó có người sẵn sàng trả ít nhất 200.000đ để học. Bạn nghĩ danh sách đó trống không?",
+      "cta": "Làm bài tập này ngay hôm nay và tag tôi.",
+      "tags": ["bài tập", "giá trị", "chuyên môn"]
+    },
+    {
+      "id": "wbiz_T10_nong_casestudy",
+      "topic_id": "T10",
+      "topic_title": "Bạn đang tự đánh giá thấp giá trị của mình",
+      "topic_group": "Tâm lý",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Hương nghĩ kỹ năng làm PowerPoint của mình không ai cần — đó là thứ 'ai cũng biết'. 3 tháng sau, chị có khóa học 'Thiết kế slide chuyên nghiệp cho dân văn phòng' — 45 học viên, 22 triệu/tháng.",
+      "cta": "Nhắn 'HƯƠNG' để tôi chỉ cách chị phát hiện ra chuyên môn ẩn như vậy.",
+      "tags": ["case study", "powerpoint", "khoá học", "chuyên môn ẩn"]
+    },
+    {
+      "id": "wbiz_T10_banhang_directoffer",
+      "topic_id": "T10",
+      "topic_title": "Bạn đang tự đánh giá thấp giá trị của mình",
+      "topic_group": "Tâm lý",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Buổi đầu tiên trong chương trình: tôi giúp bạn phát hiện ra chuyên môn thật sự của bạn — và định giá nó đúng giá trị. Nhiều học viên ngạc nhiên khi nhận ra họ đã có thể bán từ lâu rồi.",
+      "cta": "Đăng ký để biết chuyên môn của bạn đáng giá bao nhiêu.",
+      "tags": ["offer", "chuyên môn", "định giá"]
+    },
+
+    {
+      "id": "wbiz_T11_lanh_teacher",
+      "topic_id": "T11",
+      "topic_title": "3 bước tìm ra chuyên môn có thể kiếm tiền",
+      "topic_group": "Hướng dẫn",
+      "temperature": "lanh",
+      "framework": "Teacher",
+      "hook_text": "Chuyên môn có thể kiếm tiền = thứ bạn biết + thứ người khác cần + thứ người ta sẵn sàng trả tiền. 3 bước để tìm giao điểm đó: (1) Liệt kê thứ bạn biết. (2) Hỏi người xung quanh họ cần gì. (3) Kiểm tra xem có ai đang bán thứ đó không.",
+      "cta": "Comment '3 BƯỚC' để nhận worksheet đầy đủ.",
+      "tags": ["3 bước", "chuyên môn", "framework"]
+    },
+    {
+      "id": "wbiz_T11_am_experimenter",
+      "topic_id": "T11",
+      "topic_title": "3 bước tìm ra chuyên môn có thể kiếm tiền",
+      "topic_group": "Hướng dẫn",
+      "temperature": "am",
+      "framework": "Experimenter",
+      "hook_text": "Tôi đã thử 5 chuyên môn khác nhau trước khi tìm ra thứ thật sự bán được. Đây là quy trình 3 bước tôi dùng để test nhanh mà không tốn nhiều thời gian — và cách tôi biết cái nào ra tiền trước khi làm khóa học.",
+      "cta": "Lưu bài — 3 bước này tiết kiệm cho bạn 3-6 tháng đi sai hướng.",
+      "tags": ["thí nghiệm", "3 bước", "test"]
+    },
+    {
+      "id": "wbiz_T11_nong_investigator",
+      "topic_id": "T11",
+      "topic_title": "3 bước tìm ra chuyên môn có thể kiếm tiền",
+      "topic_group": "Hướng dẫn",
+      "temperature": "nong",
+      "framework": "Investigator",
+      "hook_text": "Tôi phân tích 50 khóa học online đang bán chạy nhất từ phụ nữ Việt Nam 2024-2025. Có 1 pattern: tất cả đều bắt đầu từ đúng 1 bước đầu tiên mà hầu hết người mới bỏ qua. Bước đó quyết định 80% cơ hội thành công.",
+      "cta": "Nhắn 'PATTERN' để tôi tiết lộ bước đó.",
+      "tags": ["pattern", "khoá học", "VN", "research"]
+    },
+    {
+      "id": "wbiz_T11_banhang_directoffer",
+      "topic_id": "T11",
+      "topic_title": "3 bước tìm ra chuyên môn có thể kiếm tiền",
+      "topic_group": "Hướng dẫn",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Trong 3 ngày đầu của chương trình, bạn sẽ hoàn thành 3 bước để tìm ra đúng chuyên môn có thể kiếm tiền của mình và bắt đầu xây sản phẩm từ đó. Không đoán mò. Có framework rõ ràng.",
+      "cta": "Đăng ký để bắt đầu 3 bước đó ngay tuần này.",
+      "tags": ["offer", "3 ngày", "framework", "sản phẩm"]
+    },
+
+    {
+      "id": "wbiz_T12_lanh_contrarian",
+      "topic_id": "T12",
+      "topic_title": "Cách đơn giản để biết bạn có thể dạy cái gì",
+      "topic_group": "Hướng dẫn",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn không cần tìm ra 'đam mê' để biết mình có thể dạy cái gì. Câu hỏi đúng không phải 'tôi thích gì?' mà là 'người xung quanh thường hỏi tôi về điều gì?' Câu trả lời đó chính là chuyên môn bạn có thể bán.",
+      "cta": "Comment 'DẠY GÌ' để nhận 5 câu hỏi giúp bạn tìm ra câu trả lời trong 10 phút.",
+      "tags": ["dạy", "đam mê", "chuyên môn"]
+    },
+    {
+      "id": "wbiz_T12_am_teacher",
+      "topic_id": "T12",
+      "topic_title": "Cách đơn giản để biết bạn có thể dạy cái gì",
+      "topic_group": "Hướng dẫn",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Đây là cách đơn giản nhất để biết bạn có thể dạy gì: Nhìn lại 3 tháng qua — người ta hỏi bạn điều gì nhiều nhất? Điều đó chính là thứ người ta sẵn sàng trả tiền để học từ bạn.",
+      "cta": "Làm bài tập này và chia sẻ kết quả bên dưới.",
+      "tags": ["dạy", "bài tập", "3 tháng"]
+    },
+    {
+      "id": "wbiz_T12_nong_casestudy",
+      "topic_id": "T12",
+      "topic_title": "Cách đơn giản để biết bạn có thể dạy cái gì",
+      "topic_group": "Hướng dẫn",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Thảo không biết mình có thể dạy gì cho đến khi nhận ra: cứ ai hỏi về cách nuôi con ăn dặm là chị được hỏi. Đó không phải ngẫu nhiên — đó là thị trường đang nói cho chị biết chuyên môn của chị là gì.",
+      "cta": "Nhắn 'THẢO' để tôi chỉ cách chị chuyển điều đó thành khóa học 25 triệu/tháng.",
+      "tags": ["case study", "ăn dặm", "khoá học", "phát hiện"]
+    },
+    {
+      "id": "wbiz_T12_banhang_directoffer",
+      "topic_id": "T12",
+      "topic_title": "Cách đơn giản để biết bạn có thể dạy cái gì",
+      "topic_group": "Hướng dẫn",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Trong buổi học đầu tiên, tôi giúp bạn trả lời đúng câu hỏi 'tôi có thể dạy gì?' bằng framework 3 bước đã giúp 200+ phụ nữ tìm ra chuyên môn bán được của mình.",
+      "cta": "Đăng ký để tìm ra câu trả lời đó trong buổi đầu tiên.",
+      "tags": ["offer", "framework", "chuyên môn"]
+    },
+
+    {
+      "id": "wbiz_T13_lanh_investigator",
+      "topic_id": "T13",
+      "topic_title": "Checklist: bạn đã sẵn sàng xây thương hiệu chưa?",
+      "topic_group": "Hướng dẫn",
+      "temperature": "lanh",
+      "framework": "Investigator",
+      "hook_text": "Hầu hết người nghĩ mình chưa sẵn sàng vì thiếu follower, thiếu thiết bị, thiếu thời gian. Nhưng đó không phải checklist đúng. Checklist thật sự chỉ có 3 câu hỏi — và hầu hết người đọc bài này đã tick xong cả 3.",
+      "cta": "Comment 'CHECKLIST' để nhận 3 câu hỏi đó ngay.",
+      "tags": ["checklist", "sẵn sàng", "personal brand"]
+    },
+    {
+      "id": "wbiz_T13_am_teacher",
+      "topic_id": "T13",
+      "topic_title": "Checklist: bạn đã sẵn sàng xây thương hiệu chưa?",
+      "topic_group": "Hướng dẫn",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Trước khi bắt đầu xây thương hiệu, hãy trả lời 3 câu này: (1) Bạn có thể giúp ai giải quyết vấn đề gì cụ thể? (2) Bạn đã từng giúp ai giải quyết vấn đề đó chưa? (3) Bạn sẵn sàng nói về chủ đề đó đều đặn không? Nếu 3 câu đều có — bạn đã sẵn sàng.",
+      "cta": "Lưu checklist này và trả lời 3 câu hỏi đó ngay hôm nay.",
+      "tags": ["checklist", "3 câu hỏi", "personal brand"]
+    },
+    {
+      "id": "wbiz_T13_nong_fortuneteller",
+      "topic_id": "T13",
+      "topic_title": "Checklist: bạn đã sẵn sàng xây thương hiệu chưa?",
+      "topic_group": "Hướng dẫn",
+      "temperature": "nong",
+      "framework": "Fortune Teller",
+      "hook_text": "3 tháng tới, người bắt đầu xây thương hiệu ngay hôm nay sẽ có audience đầu tiên, case study đầu tiên, và nhận ra thương hiệu dễ hơn họ nghĩ. Người tiếp tục chờ 'sẵn sàng hơn' — sẽ vẫn ở điểm xuất phát và chờ.",
+      "cta": "Nhắn '3 THÁNG' nếu bạn muốn bắt đầu ngay hôm nay.",
+      "tags": ["tương lai", "3 tháng", "personal brand", "audience"]
+    },
+    {
+      "id": "wbiz_T13_banhang_directoffer",
+      "topic_id": "T13",
+      "topic_title": "Checklist: bạn đã sẵn sàng xây thương hiệu chưa?",
+      "topic_group": "Hướng dẫn",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này đánh giá đúng bạn đang ở đâu và cần gì để sẵn sàng bán. Không phán xét — chỉ là điểm khởi đầu rõ ràng để biết bước tiếp theo là gì.",
+      "cta": "Đăng ký để biết bạn thật sự đã sẵn sàng đến đâu.",
+      "tags": ["offer", "đánh giá", "lộ trình"]
+    },
+
+    {
+      "id": "wbiz_T14_lanh_teacher",
+      "topic_id": "T14",
+      "topic_title": "5 dạng nội dung cho người mới bắt đầu",
+      "topic_group": "Hướng dẫn",
+      "temperature": "lanh",
+      "framework": "Teacher",
+      "hook_text": "Nếu bạn không biết đăng gì khi mới bắt đầu, đây là 5 dạng không bao giờ thất bại: (1) Hỏi đáp từ người xung quanh. (2) Sai lầm bạn từng mắc. (3) Thứ bạn ước mình biết sớm hơn. (4) Quy trình bạn đang làm. (5) Kết quả của người bạn giúp.",
+      "cta": "Lưu bài và thử 1 trong 5 dạng này hôm nay.",
+      "tags": ["5 dạng", "content", "newbie"]
+    },
+    {
+      "id": "wbiz_T14_am_experimenter",
+      "topic_id": "T14",
+      "topic_title": "5 dạng nội dung cho người mới bắt đầu",
+      "topic_group": "Hướng dẫn",
+      "temperature": "am",
+      "framework": "Experimenter",
+      "hook_text": "Tôi đã thử tất cả các dạng nội dung có thể và chỉ 5 dạng này nhất quán mang về người theo dõi mới và khách hàng. Không phải vì chúng hay nhất, mà vì chúng match đúng thuật toán và đúng nhu cầu của người mới.",
+      "cta": "Comment dạng nào bạn muốn thử nhất — tôi sẽ gợi ý chủ đề cụ thể cho nghề của bạn.",
+      "tags": ["thí nghiệm", "5 dạng", "thuật toán"]
+    },
+    {
+      "id": "wbiz_T14_nong_casestudy",
+      "topic_id": "T14",
+      "topic_title": "5 dạng nội dung cho người mới bắt đầu",
+      "topic_group": "Hướng dẫn",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Lan dùng đúng 1 trong 5 dạng nội dung này mỗi ngày trong 30 ngày đầu. Không sáng tạo, không phức tạp, không cần thiết bị xịn. Kết quả: 200 người theo dõi và 3 khách hàng đầu tiên trong tháng 1.",
+      "cta": "Nhắn '5 DẠNG' để tôi gửi bạn bản đầy đủ với ví dụ cụ thể cho từng nghề.",
+      "tags": ["case study", "5 dạng", "30 ngày", "follower"]
+    },
+    {
+      "id": "wbiz_T14_banhang_directoffer",
+      "topic_id": "T14",
+      "topic_title": "5 dạng nội dung cho người mới bắt đầu",
+      "topic_group": "Hướng dẫn",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Trong chương trình, tôi xây sẵn cho bạn lịch content 30 ngày đầu — dựa trên 5 dạng nội dung này — cụ thể cho nghề và avatar của bạn. Bạn chỉ cần làm theo.",
+      "cta": "Đăng ký và nhận lịch content 30 ngày sẵn sàng thực hiện.",
+      "tags": ["offer", "30 ngày", "lịch content", "5 dạng"]
+    },
+
+    {
+      "id": "wbiz_T15_lanh_teacher",
+      "topic_id": "T15",
+      "topic_title": "Nếu bắt đầu lại từ 0, tôi sẽ làm gì trong 30 ngày",
+      "topic_group": "Hành động",
+      "temperature": "lanh",
+      "framework": "Teacher",
+      "hook_text": "Nếu tôi bắt đầu lại từ 0 hôm nay với chuyên môn của mình, đây là 30 ngày đầu tiên tôi sẽ làm — không mua khóa học, không làm website, không chạy ads. Chỉ 3 việc cụ thể, theo thứ tự, mỗi ngày 1 giờ.",
+      "cta": "Comment '30 NGÀY' để nhận lộ trình đầy đủ.",
+      "tags": ["30 ngày", "lộ trình", "bắt đầu lại"]
+    },
+    {
+      "id": "wbiz_T15_am_experimenter",
+      "topic_id": "T15",
+      "topic_title": "Nếu bắt đầu lại từ 0, tôi sẽ làm gì trong 30 ngày",
+      "topic_group": "Hành động",
+      "temperature": "am",
+      "framework": "Experimenter",
+      "hook_text": "Tôi đã thử test lại quy trình bắt đầu từ 0 với 1 chuyên môn hoàn toàn mới. Trong 30 ngày: 50 người theo dõi, 2 khách hàng đầu tiên, 8 triệu thu nhập. Đây là những gì tôi làm mỗi ngày — và những gì tôi bỏ qua.",
+      "cta": "Lưu bài — đây là thứ tôi ước có khi mới bắt đầu.",
+      "tags": ["thí nghiệm", "30 ngày", "thu nhập"]
+    },
+    {
+      "id": "wbiz_T15_nong_fortuneteller",
+      "topic_id": "T15",
+      "topic_title": "Nếu bắt đầu lại từ 0, tôi sẽ làm gì trong 30 ngày",
+      "topic_group": "Hành động",
+      "temperature": "nong",
+      "framework": "Fortune Teller",
+      "hook_text": "Người bắt đầu 30 ngày này ngay hôm nay sẽ có: profile rõ ràng, nội dung đầu tiên, và ít nhất 1 người hỏi mua — trước ngày 17/05. Người tiếp tục chờ sẽ đọc bài tương tự này tháng sau và vẫn chờ.",
+      "cta": "Nhắn 'BẮT ĐẦU' nếu bạn muốn 30 ngày đó bắt đầu hôm nay.",
+      "tags": ["tương lai", "30 ngày", "deadline"]
+    },
+    {
+      "id": "wbiz_T15_banhang_directoffer",
+      "topic_id": "T15",
+      "topic_title": "Nếu bắt đầu lại từ 0, tôi sẽ làm gì trong 30 ngày",
+      "topic_group": "Hành động",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình của tôi = 30 ngày đầu tiên được tổ chức và có người hướng dẫn. Mỗi tuần có mục tiêu rõ. Mỗi ngày có việc cụ thể. Bạn không cần tự figure out nữa.",
+      "cta": "Đăng ký và bắt đầu 30 ngày đầu tiên có hệ thống ngay tuần này.",
+      "tags": ["offer", "30 ngày", "lộ trình"]
+    },
+
+    {
+      "id": "wbiz_T16_lanh_fortuneteller",
+      "topic_id": "T16",
+      "topic_title": "Lộ trình 0 → có sản phẩm số đầu tiên",
+      "topic_group": "Hành động",
+      "temperature": "lanh",
+      "framework": "Fortune Teller",
+      "hook_text": "Trong 60 ngày tới, người bắt đầu lộ trình này sẽ có sản phẩm số đầu tiên — không phải ý tưởng, không phải kế hoạch, mà là sản phẩm thật, có người mua, có tiền vào tài khoản. Đây là lộ trình đó.",
+      "cta": "Comment 'LỘ TRÌNH' để nhận sơ đồ đầy đủ.",
+      "tags": ["tương lai", "60 ngày", "sản phẩm số"]
+    },
+    {
+      "id": "wbiz_T16_am_teacher",
+      "topic_id": "T16",
+      "topic_title": "Lộ trình 0 → có sản phẩm số đầu tiên",
+      "topic_group": "Hành động",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Lộ trình từ 0 đến sản phẩm số đầu tiên không phức tạp như bạn nghĩ. 4 giai đoạn: (1) Tìm chuyên môn bán được. (2) Validate với 5-10 người. (3) Tạo MVP. (4) Bán lần đầu. Cả 4 giai đoạn có thể làm trong 30-60 ngày.",
+      "cta": "Lưu lộ trình này và bắt đầu giai đoạn 1 tuần này.",
+      "tags": ["4 giai đoạn", "MVP", "lộ trình", "sản phẩm số"]
+    },
+    {
+      "id": "wbiz_T16_nong_casestudy",
+      "topic_id": "T16",
+      "topic_title": "Lộ trình 0 → có sản phẩm số đầu tiên",
+      "topic_group": "Hành động",
+      "temperature": "nong",
+      "framework": "Case Study",
+      "hook_text": "Chị Mai bắt đầu từ 0: không follower, không khóa học, không kinh nghiệm bán online. 45 ngày sau: khóa học đầu tiên, 12 học viên, 24 triệu thu nhập. Đây là lộ trình chính xác chị đi qua.",
+      "cta": "Nhắn 'LỘ TRÌNH MAI' để tôi chia sẻ chi tiết từng bước chị đã làm.",
+      "tags": ["case study", "45 ngày", "khoá học", "transformation"]
+    },
+    {
+      "id": "wbiz_T16_banhang_directoffer",
+      "topic_id": "T16",
+      "topic_title": "Lộ trình 0 → có sản phẩm số đầu tiên",
+      "topic_group": "Hành động",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này là lộ trình từ 0 đến sản phẩm số đầu tiên — được tổ chức thành 30 ngày, có checkpoint rõ ràng, và có tôi review từng bước của bạn. Không tự mò mẫm một mình.",
+      "cta": "Đăng ký và bắt đầu lộ trình 30 ngày có hỗ trợ ngay.",
+      "tags": ["offer", "30 ngày", "checkpoint", "review 1-1"]
+    },
+
+    {
+      "id": "wbiz_T17_lanh_fortuneteller",
+      "topic_id": "T17",
+      "topic_title": "Bạn nên bắt đầu xây thương hiệu NGAY hôm nay vì…",
+      "topic_group": "Hành động",
+      "temperature": "lanh",
+      "framework": "Fortune Teller",
+      "hook_text": "Mỗi ngày bạn chờ, 1 người khác cùng nghề đang đăng bài đầu tiên của họ. Thuật toán học từ mỗi bài đăng. Audience hình thành từng ngày. Khoảng cách giữa bạn và họ lớn hơn 1 chút mỗi ngày bạn chờ.",
+      "cta": "Comment 'NGAY HÔM NAY' nếu bạn quyết định bắt đầu.",
+      "tags": ["urgency", "thuật toán", "competition"]
+    },
+    {
+      "id": "wbiz_T17_am_investigator",
+      "topic_id": "T17",
+      "topic_title": "Bạn nên bắt đầu xây thương hiệu NGAY hôm nay vì…",
+      "topic_group": "Hành động",
+      "temperature": "am",
+      "framework": "Investigator",
+      "hook_text": "Tôi đã phân tích dữ liệu của 100 người tạo thương hiệu cá nhân thành công: người bắt đầu sớm — dù xấu — luôn vượt người bắt đầu muộn nhưng chuẩn bị kỹ. Lý do: thuật toán ưu tiên consistency hơn chất lượng.",
+      "cta": "Lưu bài — đây là lý do khoa học để bắt đầu ngay hôm nay.",
+      "tags": ["research", "thuật toán", "consistency", "100 người"]
+    },
+    {
+      "id": "wbiz_T17_nong_contrarian",
+      "topic_id": "T17",
+      "topic_title": "Bạn nên bắt đầu xây thương hiệu NGAY hôm nay vì…",
+      "topic_group": "Hành động",
+      "temperature": "nong",
+      "framework": "Contrarian",
+      "hook_text": "Bạn đang nghĩ: 'Khi nào chuẩn bị xong tôi sẽ bắt đầu.' Nhưng người đang kiếm tiền từ thương hiệu cá nhân không chờ chuẩn bị xong. Họ bắt đầu xấu và cải thiện dần. Đó là lý do họ đang có thu nhập còn bạn vẫn đang chuẩn bị.",
+      "cta": "Nhắn 'NGAY' — tôi sẽ giúp bạn đăng bài đầu tiên trong vòng 24h.",
+      "tags": ["chuẩn bị", "perfectionism", "24h"]
+    },
+    {
+      "id": "wbiz_T17_banhang_directoffer",
+      "topic_id": "T17",
+      "topic_title": "Bạn nên bắt đầu xây thương hiệu NGAY hôm nay vì…",
+      "topic_group": "Hành động",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Nếu bạn biết mình nên bắt đầu nhưng vẫn chưa bắt đầu — chương trình này tạo ra deadline và accountability cho bạn. Tuần 1: bạn sẽ có profile, nội dung đầu tiên, và bắt đầu xây audience.",
+      "cta": "Đăng ký hôm nay để bắt đầu tuần này — không phải 'khi nào sẵn sàng'.",
+      "tags": ["offer", "accountability", "deadline", "tuần 1"]
+    },
+
+    {
+      "id": "wbiz_T18_lanh_contrarian",
+      "topic_id": "T18",
+      "topic_title": "Đừng học thêm nữa – hãy bắt đầu kiếm tiền từ cái bạn biết",
+      "topic_group": "Hành động",
+      "temperature": "lanh",
+      "framework": "Contrarian",
+      "hook_text": "Bạn đang chuẩn bị mua thêm 1 khóa học nữa. Dừng lại. Thứ bạn đang tìm trong khóa học đó — bạn đã có đủ để bắt đầu kiếm tiền rồi. Vấn đề không phải thiếu kiến thức — mà là chưa biết cách bán thứ đã có.",
+      "cta": "Comment 'DỪNG' nếu bạn đang trong tình huống này — tôi sẽ gợi ý bước tiếp theo cụ thể.",
+      "tags": ["course junkie", "kiến thức", "monetize"]
+    },
+    {
+      "id": "wbiz_T18_am_teacher",
+      "topic_id": "T18",
+      "topic_title": "Đừng học thêm nữa – hãy bắt đầu kiếm tiền từ cái bạn biết",
+      "topic_group": "Hành động",
+      "temperature": "am",
+      "framework": "Teacher",
+      "hook_text": "Đây là bài tập tôi muốn bạn làm ngay: Mở danh sách khóa học bạn đã mua. Đánh dấu những thứ bạn đã biết đủ để bắt đầu bán. Tôi đoán ít nhất 3 thứ trong danh sách đó. Câu hỏi là: tại sao bạn vẫn chưa bán?",
+      "cta": "Làm bài tập này và comment câu trả lời bên dưới.",
+      "tags": ["bài tập", "khoá học", "monetize"]
+    },
+    {
+      "id": "wbiz_T18_nong_investigator",
+      "topic_id": "T18",
+      "topic_title": "Đừng học thêm nữa – hãy bắt đầu kiếm tiền từ cái bạn biết",
+      "topic_group": "Hành động",
+      "temperature": "nong",
+      "framework": "Investigator",
+      "hook_text": "Tôi phỏng vấn 30 phụ nữ đã mua trung bình 8 khóa học nhưng chưa có 1 đồng từ chuyên môn online. Tất cả đều biết đủ để bắt đầu bán. Rào cản thật sự không phải kiến thức — đây là thứ tôi tìm ra.",
+      "cta": "Nhắn '30' để tôi tiết lộ rào cản thật sự đó là gì.",
+      "tags": ["research", "8 khoá học", "rào cản", "30 phụ nữ"]
+    },
+    {
+      "id": "wbiz_T18_banhang_directoffer",
+      "topic_id": "T18",
+      "topic_title": "Đừng học thêm nữa – hãy bắt đầu kiếm tiền từ cái bạn biết",
+      "topic_group": "Hành động",
+      "temperature": "banhang",
+      "framework": "Direct Offer",
+      "hook_text": "Chương trình này không dạy bạn thêm kiến thức mới. Nó giúp bạn lấy thứ bạn đã biết — và biến nó thành thu nhập. Nếu bạn đã học đủ rồi — đây là bước tiếp theo.",
+      "cta": "Đăng ký — và bắt đầu kiếm tiền từ thứ bạn đã biết, ngay tuần này.",
+      "tags": ["offer", "monetize", "tuần này"]
+    }
+  ]
+}

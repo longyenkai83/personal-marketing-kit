@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_coach_pb_30",
+  "generated_at": "2026-04-25T15:00:00+07:00",
+  "hooks": [
+    {
+      "id": "h1",
+      "type": "question_led",
+      "text_vi": "Bạn muốn scale từ 1-1 sang cohort — nhưng vẫn sợ học viên không có kết quả như 1-1, đúng không?",
+      "paired_insight_id": "i1",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption", "fb_post"],
+      "uses_voice_words": ["scale", "1-1", "cohort"],
+      "notes": "Direct callout của tension chính"
+    },
+    {
+      "id": "h2",
+      "type": "callout",
+      "text_vi": "Bạn đang chờ '1-1 đầy schedule' để bắt đầu nghĩ tới cohort. Đợi cho hết kẹt thì 6 tháng nữa.",
+      "paired_insight_id": "i1",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["1-1", "cohort", "kẹt"]
+    },
+    {
+      "id": "h3",
+      "type": "transformation",
+      "text_vi": "Từ '1-1 đầy schedule + kiệt sức' sang 'cohort 12 người + 6 tuần focused' — 1 quyết định.",
+      "paired_insight_id": "i1",
+      "paired_formula": "bab",
+      "goal": "sale",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["1-1", "cohort", "burn out"]
+    },
+    {
+      "id": "h4",
+      "type": "contradiction",
+      "text_vi": "Unpopular opinion: bạn đang nói có POV nhưng caption giống y hệt 200 coach khác.",
+      "paired_insight_id": "i2",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["POV", "coach"]
+    },
+    {
+      "id": "h5",
+      "type": "stat_led",
+      "text_vi": "Mình review 50 page coach VN tháng này — 47 page dùng cùng 1 hook.",
+      "paired_insight_id": "i2",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h6",
+      "type": "callout",
+      "text_vi": "Bạn đang đăng đều 5 bài/tuần mà 1k save đi với 0 inbox. Vấn đề không phải thuật toán.",
+      "paired_insight_id": "i2",
+      "paired_formula": "fourp",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["inbox"]
+    },
+    {
+      "id": "h7",
+      "type": "callout",
+      "text_vi": "Bạn đang đợi 'sẵn sàng' để launch cohort. Mình hiểu. Mình từng đợi 6 tháng.",
+      "paired_insight_id": "i3",
+      "paired_formula": "storybrand",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cohort"]
+    },
+    {
+      "id": "h8",
+      "type": "story_open",
+      "text_vi": "Cohort đầu tiên của mình: 4 người mua, 1 hoàn tiền, 2 không hoàn thành. Đây là điều tốt nhất từng xảy ra.",
+      "paired_insight_id": "i3",
+      "paired_formula": "storybrand",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["cohort"]
+    },
+    {
+      "id": "h9",
+      "type": "question_led",
+      "text_vi": "Lần cuối bạn nói 'sẵn sàng rồi sẽ làm' là tháng nào? Và 'sẵn sàng' có thật là sẽ đến không?",
+      "paired_insight_id": "i3",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h10",
+      "type": "contradiction",
+      "text_vi": "Hot take: coach càng giỏi caption càng nên ngắn. Không dài.",
+      "paired_insight_id": "i4",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h11",
+      "type": "stat_led",
+      "text_vi": "Caption 'POV ngắn + 1 ví dụ' có save trung bình cao gấp 2.4 lần 'list 5 bước' — 50 page coach VN.",
+      "paired_insight_id": "i4",
+      "paired_formula": "fourp",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["POV", "coach"]
+    },
+    {
+      "id": "h12",
+      "type": "list",
+      "text_vi": "5 từ mình đã CẤM dùng trong caption năm 2026 vì chúng đang giết engagement của coach.",
+      "paired_insight_id": "i4",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h13",
+      "type": "transformation",
+      "text_vi": "Từ 'viết content căng 3 tuần xong burn out 2 tuần' sang '1.5h/tuần content cả năm'.",
+      "paired_insight_id": "i5",
+      "paired_formula": "bab",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["burn out"]
+    },
+    {
+      "id": "h14",
+      "type": "story_open",
+      "text_vi": "Sáng thứ 2 không còn burn out. Mở Notion thấy content tuần đã viết xong từ chủ nhật. Pha cà phê. Đăng. Đóng app.",
+      "paired_insight_id": "i5",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["burn out"]
+    },
+    {
+      "id": "h15",
+      "type": "callout",
+      "text_vi": "Bạn đang kẹt giữa 'làm content' và 'làm coaching'. Bạn không cần phải chọn.",
+      "paired_insight_id": "i5",
+      "paired_formula": "bab",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["kẹt"]
+    },
+    {
+      "id": "h16",
+      "type": "callout",
+      "text_vi": "Bạn đang nói 'cohort không sâu được như 1-1'. So sánh sai chuẩn rồi.",
+      "paired_insight_id": "i6",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cohort", "1-1"]
+    },
+    {
+      "id": "h17",
+      "type": "contradiction",
+      "text_vi": "Học viên cohort không hoàn thành KHÔNG phải vì format kém. Vì thiếu peer.",
+      "paired_insight_id": "i6",
+      "paired_formula": "storybrand",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["cohort"]
+    },
+    {
+      "id": "h18",
+      "type": "question_led",
+      "text_vi": "Cohort của bạn flop vì format kém — hay vì bạn chưa thiết kế peer accountability?",
+      "paired_insight_id": "i6",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cohort", "flop"]
+    },
+    {
+      "id": "h19",
+      "type": "transformation",
+      "text_vi": "Từ 5 client × 2tr × 80h/tháng → 12 học viên × 8tr × 6 tuần intensive. Cùng nỗ lực, gấp 2.4 income.",
+      "paired_insight_id": "i7",
+      "paired_formula": "bab",
+      "goal": "sale",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["cohort"]
+    },
+    {
+      "id": "h20",
+      "type": "stat_led",
+      "text_vi": "1 cohort 12 người 6 tuần = 96tr. 5 client 1-1/tháng = 40tr × 12 tháng = 480tr. Khác nhau ở 'recovery time'.",
+      "paired_insight_id": "i7",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cohort", "1-1"]
+    },
+    {
+      "id": "h21",
+      "type": "story_open",
+      "text_vi": "Tuần 7 sau cohort 1: mình tắt máy 4 tuần. Lần đầu kể từ năm 2023 mình ngủ 8 tiếng/đêm.",
+      "paired_insight_id": "i7",
+      "paired_formula": "hero",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cohort"]
+    },
+    {
+      "id": "h22",
+      "type": "story_open",
+      "text_vi": "Học viên đầu tiên hỏi mình: 'Chị làm cái này bao lâu rồi?' Mình suýt nói 'mới 6 tháng'. Tôi đã sai.",
+      "paired_insight_id": "i8",
+      "paired_formula": "hero",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_60s"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h23",
+      "type": "contradiction",
+      "text_vi": "Imposter syndrome không chữa bằng 'tích luỹ thêm chứng chỉ'. Chữa bằng identity shift.",
+      "paired_insight_id": "i8",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["imposter"]
+    },
+    {
+      "id": "h24",
+      "type": "callout",
+      "text_vi": "Bạn nghĩ mình 'còn đang học cùng học viên'. Đó là lý do pricing của bạn không nâng được.",
+      "paired_insight_id": "i8",
+      "paired_formula": "storybrand",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["imposter", "coach"]
+    },
+    {
+      "id": "h25",
+      "type": "question_led",
+      "text_vi": "Bạn ngại tăng giá 1-1 vì 'sợ client cũ giận'. Đã bao nhiêu tháng rồi?",
+      "paired_insight_id": "i9",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["1-1"]
+    },
+    {
+      "id": "h26",
+      "type": "stat_led",
+      "text_vi": "70% client cũ accept giá mới nếu communicate đúng cách + 1 lần. Mình đã test với 3 coach.",
+      "paired_insight_id": "i9",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["coach"]
+    },
+    {
+      "id": "h27",
+      "type": "callout",
+      "text_vi": "Bạn đang giữ giá 2tr/buổi vì 'sợ mất client'. Đang mất chính bạn — burn out 3 tuần liền.",
+      "paired_insight_id": "i9",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["burn out"]
+    },
+    {
+      "id": "h28",
+      "type": "callout",
+      "text_vi": "Bạn đang post 'pure value' 5 bài/tuần. 1k save, 0 inbox. Thiếu 1 cái: lời mời.",
+      "paired_insight_id": "i10",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["inbox"]
+    },
+    {
+      "id": "h29",
+      "type": "list",
+      "text_vi": "3 lý do bạn save bài giỏi nhưng không bao giờ inbox người post.",
+      "paired_insight_id": "i10",
+      "paired_formula": "fourp",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["inbox"]
+    },
+    {
+      "id": "h30",
+      "type": "stat_led",
+      "text_vi": "Tỉ lệ vàng coach top-tier dùng: 3 bài 'value' + 1 bài 'invite'. Bạn đang 5:0.",
+      "paired_insight_id": "i10",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["coach"]
+    }
+  ]
+}

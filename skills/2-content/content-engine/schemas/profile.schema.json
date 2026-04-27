@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Customer Profile (VPC-based)",
+  "description": "Stage 1 output — Customer Profile derived from VPC Customer Profile half (Jobs/Pains/Gains) + voice + demographics. Loaded by stages 2-4.",
+  "type": "object",
+  "required": ["schema_version", "persona_id", "persona_name", "one_line", "demographics", "jobs", "pains", "gains", "voice", "evidence_summary"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "persona_id": {"type": "string", "pattern": "^[a-z0-9_]+$", "description": "kebab-or-snake case, used for filenames"},
+    "persona_name": {"type": "string"},
+    "one_line": {"type": "string", "maxLength": 200, "description": "Single sentence persona summary"},
+    "niche": {"type": "string", "description": "e.g., 'beauty creator', 'coach 1-1 chuyển sang cohort'"},
+    "language": {"type": "string", "enum": ["vi", "en"], "default": "vi"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "data_source": {
+      "type": "object",
+      "description": "Where this profile data came from",
+      "properties": {
+        "method": {"type": "string", "enum": ["fb_insight_miner", "brief", "hybrid"]},
+        "fanpage_url": {"type": "string"},
+        "brief_path": {"type": "string"},
+        "insight_run_id": {"type": "string", "description": "fb-insight-miner run ID if hybrid"}
+      }
+    },
+    "demographics": {
+      "type": "object",
+      "description": "Only fields that affect content/copy decisions",
+      "properties": {
+        "age_band": {"type": "string", "description": "e.g., '26-30'"},
+        "role_identity": {"type": "string"},
+        "life_stage": {"type": "string"},
+        "income_tier_vnd": {"type": "string", "description": "e.g., 'under-15tr', '15-30tr', '30tr+'"},
+        "ig_fb_usage": {
+          "type": "object",
+          "properties": {
+            "primary_platform": {"type": "string", "enum": ["IG", "FB", "TikTok", "multi"]},
+            "format_preference": {"type": "string"},
+            "peak_online": {"type": "string"},
+            "behavior": {"type": "string", "description": "lurker / commenter / creator-active"}
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 12,
+      "description": "Sweet spot 5-7 jobs mixing functional/emotional/social",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "statement", "importance", "frequency_tag", "confidence"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^j[0-9]+$"},
+          "type": {"enum": ["functional", "emotional", "social", "supporting"]},
+          "statement": {"type": "string", "minLength": 10, "maxLength": 300},
+          "trigger_context": {"type": "string", "description": "When does this job arise? e.g., 'tối CN lập kế hoạch tuần'"},
+          "importance": {"enum": ["low", "medium", "high"]},
+          "frequency_tag": {"enum": ["rare", "occasional", "frequent", "constant"]},
+          "verbatim": {"type": ["string", "null"], "description": "Customer's exact words if observed"},
+          "source_ref": {"type": "string"},
+          "confidence": {"enum": ["observed", "inferred", "assumed"]}
+        }
+      }
+    },
+    "pains": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 15,
+      "description": "Sweet spot 7-10 pains. Must include extreme+frequent ones for hooks.",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "statement", "severity_tag", "frequency_tag", "confidence"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^p[0-9]+$"},
+          "type": {"enum": ["undesired_outcome", "obstacle", "risk"]},
+          "statement": {"type": "string", "minLength": 10, "maxLength": 400},
+          "severity_tag": {"enum": ["mild", "moderate", "extreme"]},
+          "frequency_tag": {"enum": ["rare", "occasional", "frequent", "constant"]},
+          "verbatim": {"type": ["string", "null"]},
+          "source_ref": {"type": "string"},
+          "confidence": {"enum": ["observed", "inferred", "assumed"]}
+        }
+      }
+    },
+    "gains": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 15,
+      "description": "Sweet spot 7-10. Must cover all 4 levels for offer + bonus stack.",
+      "items": {
+        "type": "object",
+        "required": ["id", "level_tag", "statement", "importance", "confidence"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^g[0-9]+$"},
+          "level_tag": {"enum": ["required", "expected", "desired", "unexpected"]},
+          "statement": {"type": "string", "minLength": 10, "maxLength": 400},
+          "importance": {"enum": ["low", "medium", "high"]},
+          "verbatim": {"type": ["string", "null"]},
+          "source_ref": {"type": "string"},
+          "confidence": {"enum": ["observed", "inferred", "assumed"]}
+        }
+      }
+    },
+    "voice": {
+      "type": "object",
+      "description": "Highest-leverage data for hook/copy. Must be verbatim, not paraphrased.",
+      "required": ["self_labels", "repeated_words", "verbatim_bank"],
+      "properties": {
+        "self_labels": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "description": "How they call themselves (e.g., 'mẹ bỉm làm content')"
+        },
+        "repeated_words": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 3,
+          "description": "Words that appear ≥3x across multiple customers"
+        },
+        "metaphors": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Customer-native metaphors"
+        },
+        "verbatim_bank": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 5,
+          "description": "Min 5 verbatim quotes — never paraphrased"
+        }
+      }
+    },
+    "evidence_summary": {
+      "type": "object",
+      "required": ["total_entries", "observed_pct", "ready_for_hook_stage"],
+      "properties": {
+        "total_entries": {"type": "integer"},
+        "observed_pct": {"type": "integer", "minimum": 0, "maximum": 100, "description": "% entries with confidence='observed'"},
+        "inferred_pct": {"type": "integer"},
+        "assumed_pct": {"type": "integer"},
+        "primary_sources": {"type": "array", "items": {"type": "string"}},
+        "ready_for_hook_stage": {"type": "boolean", "description": "true only if observed_pct >= 60"}
+      }
+    }
+  }
+}

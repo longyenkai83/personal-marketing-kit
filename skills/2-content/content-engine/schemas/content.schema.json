@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content Posts",
+  "description": "Stage 4 output — finished posts ready to publish on IG/FB/Reels.",
+  "type": "object",
+  "required": ["schema_version", "persona_id", "posts"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "persona_id": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "format", "formula", "hook_id", "insight_id", "body", "cta", "language", "constraints_passed"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^post_[0-9]+$"},
+          "format": {"enum": ["ig_caption", "reels_30s", "reels_60s", "fb_post"]},
+          "formula": {"enum": ["pas", "bab", "storybrand", "hero", "fourp", "hot_take"]},
+          "goal": {"enum": ["awareness", "lead", "sale"]},
+          "hook_id": {"type": "string"},
+          "insight_id": {"type": "string"},
+          "language": {"type": "string", "const": "vi"},
+          "title": {"type": "string", "description": "Internal label, not published"},
+          "body": {
+            "type": "object",
+            "description": "For ig_caption/fb_post use full_text. For reels use beats[].",
+            "properties": {
+              "full_text": {"type": "string"},
+              "beats": {
+                "type": "array",
+                "description": "For Reels — script broken into beats with timestamps",
+                "items": {
+                  "type": "object",
+                  "required": ["label", "text"],
+                  "properties": {
+                    "label": {
+                      "enum": ["hook", "body", "cta", "problem", "agitate", "solution", "before", "after", "bridge", "picture", "promise", "proof", "push", "ordinary_world", "call", "threshold", "trial", "return", "hero_problem", "guide_meets", "plan", "stakes"],
+                      "description": "Beat label — must match formula structure (v1: PAS/BAB/SB/Hero/4P/HotTake)"
+                    },
+                    "text": {"type": "string"},
+                    "duration_sec": {"type": "number", "description": "For reels only"}
+                  }
+                }
+              }
+            }
+          },
+          "cta": {
+            "type": "object",
+            "required": ["text"],
+            "properties": {
+              "text": {"type": "string"},
+              "keyword": {"type": "string", "description": "e.g., 'POV5' for cmt-keyword DM funnels"},
+              "link": {"type": "string"}
+            }
+          },
+          "hashtags": {
+            "type": "array",
+            "items": {"type": "string"},
+            "maxItems": 12,
+            "description": "Mix of broad/niche/branded"
+          },
+          "character_count": {"type": "integer"},
+          "word_count": {"type": "integer"},
+          "duration_sec_estimated": {"type": "number", "description": "For reels"},
+          "constraints_passed": {
+            "type": "object",
+            "description": "Validation gates from scripts/validate.py",
+            "required": ["word_count_in_range", "uses_voice_vocabulary", "no_fabricated_stats", "no_fabricated_testimonials"],
+            "properties": {
+              "word_count_in_range": {"type": "boolean"},
+              "uses_voice_vocabulary": {"type": "boolean", "description": "≥1 word from profile.voice.repeated_words appears in body"},
+              "no_fabricated_stats": {"type": "boolean"},
+              "no_fabricated_testimonials": {"type": "boolean"},
+              "hook_within_first_line": {"type": "boolean"},
+              "cta_present": {"type": "boolean"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

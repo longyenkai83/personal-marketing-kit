@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hook Library",
+  "description": "Stage 3 output — pool of hooks (3-second openers) ready to feed Stage 4 content generation.",
+  "type": "object",
+  "required": ["schema_version", "persona_id", "hooks"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "persona_id": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "hooks": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 120,
+      "description": "Sweet spot 50-100 hooks. Each insight should generate 3-6 hook variants.",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text_vi", "paired_insight_id", "paired_formula", "goal"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^h[0-9]+$"},
+          "type": {
+            "enum": ["curiosity_gap", "contradiction", "stat_led", "question_led", "story_open", "callout", "list", "transformation"],
+            "description": "8 hook archetypes from storytelling-and-hooks.md Section 2"
+          },
+          "hook_subtype": {
+            "type": "string",
+            "description": "Optional finer label, e.g., 'unpopular_opinion', 'confession', 'in_medias_res'"
+          },
+          "text_vi": {
+            "type": "string",
+            "maxLength": 250,
+            "description": "First 1-2 lines, ≤25 words ideally. Must use customer vocabulary."
+          },
+          "paired_insight_id": {"type": "string", "description": "Reference to insights[].id"},
+          "paired_formula": {
+            "enum": ["pas", "bab", "storybrand", "hero", "fourp", "hot_take"],
+            "description": "v1 active set: 6 formulas. Formula this hook is designed to lead into"
+          },
+          "goal": {"enum": ["awareness", "lead", "sale"]},
+          "format_target": {
+            "type": "array",
+            "items": {"enum": ["ig_caption", "reels_30s", "reels_60s", "fb_post"]},
+            "description": "Which formats this hook works for"
+          },
+          "uses_voice_words": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Which words from profile.voice.repeated_words appear in this hook"
+          },
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

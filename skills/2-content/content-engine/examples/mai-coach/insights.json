@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_coach_pb_30",
+  "generated_at": "2026-04-25T14:45:00+07:00",
+  "insights": [
+    {
+      "id": "i1",
+      "type": "tension",
+      "title_vi": "Mâu thuẫn: muốn scale VÀ muốn giữ chất lượng 1-1",
+      "statement_vi": "Linh muốn launch cohort để thoát kiệt sức 1-1, nhưng đồng thời sợ học viên cohort không có kết quả nhất quán như 1-1. Hai mong muốn này đang kéo cô về 2 hướng — kết quả: cô không launch, vẫn 1-1, vẫn kiệt sức.",
+      "source": {
+        "pain_ids": ["p3", "p7"],
+        "gain_ids": ["g1"],
+        "job_ids": ["j1"],
+        "verbatim_quotes": [
+          "em muốn mở khoá nhóm chứ 1-1 hoài em mệt chị ạ",
+          "1-1 thì em ổn, nhóm thì em sợ"
+        ]
+      },
+      "hidden_cost": "Mỗi 6 tháng trì hoãn launch = mất ~96tr revenue cohort + cộng dồn burn-out có khả năng buộc nghỉ hẳn",
+      "reframe_angle": "Cohort KHÔNG phải '1-1 nhưng nhiều người'. Là sản phẩm khác — peer support là feature, không phải bug.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["pas", "bab"]
+    },
+    {
+      "id": "i2",
+      "type": "contradiction",
+      "title_vi": "Caption giống 200 coach khác = ngầm gửi tín hiệu 'tôi cũng đám đông'",
+      "statement_vi": "Linh nói với khách 'tôi giúp bạn chuyển hóa, có POV riêng' — nhưng 80% caption của cô giống y hệt 200 coach VN khác (cùng quote 'yêu bản thân', cùng list '5 bước hết stress'). Thuật toán nhận ra điều này trước khách.",
+      "source": {
+        "pain_ids": ["p1", "p5"],
+        "verbatim_quotes": [
+          "em viết bài giống 200 coach khác mất rồi chị ơi",
+          "1k save mà 0 inbox, em không hiểu"
+        ]
+      },
+      "hidden_cost": "Càng đăng giống đám đông, thuật toán càng bóp reach (xếp vào 'generic creator'). Ngân sách thời gian hao mà không có kết quả.",
+      "reframe_angle": "Audience không nhớ '5 bước'. Audience nhớ POV. Bỏ 1 list 5 bước, viết 1 quan điểm + 1 ví dụ cụ thể.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["hot_take", "fourp"]
+    },
+    {
+      "id": "i3",
+      "type": "say_vs_do",
+      "title_vi": "'Tôi đầu tư bản thân' nhưng đợi 'sẵn sàng' để launch 6 tháng",
+      "statement_vi": "Linh nói 'tôi luôn đầu tư phát triển bản thân' — nhưng đã đợi 6 tháng để 'sẵn sàng' launch cohort. Mỗi tuần thêm 1 lý do: 'chưa đủ case study', 'chưa đủ follower', 'chờ qua tết'. 'Sẵn sàng' không bao giờ đến.",
+      "source": {
+        "pain_ids": ["p7", "p3"],
+        "job_ids": ["j5"],
+        "verbatim_quotes": [
+          "em sợ học viên thấy em cũng còn đang học",
+          "lỡ flop thì nhục lắm chị, peer coach nhìn mình như nào"
+        ]
+      },
+      "hidden_cost": "6 tháng đợi = ~96tr revenue + cohort kinh nghiệm. Cohort 1 luôn flop hơn cohort 3 — phải qua cohort 1 mới có cohort 2.",
+      "reframe_angle": "Cohort 1 không cần hoàn hảo. Bán beta giá 30%, 5 người, gọi họ là co-creator. Cohort 2 mới là 'launch'.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["storybrand", "pas"]
+    },
+    {
+      "id": "i4",
+      "type": "surprise_myth_bust",
+      "title_vi": "Coach càng giỏi caption càng nên ngắn — không dài",
+      "statement_vi": "Niềm tin chung trong giới coach VN: 'caption dài = giá trị, save cao'. Sự thật từ 50 page coach mình review: caption 'POV ngắn + 1 ví dụ cụ thể' có save TB cao hơn 2.4 lần caption dạng 'list 5 bước'. Não save độ độc đáo, không save độ dài.",
+      "source": {
+        "pain_ids": ["p1", "p6"],
+        "verbatim_quotes": [
+          "em viết bài giống 200 coach khác mất rồi chị ơi",
+          "burn out 3 tuần liền chị ạ, em chán quá"
+        ]
+      },
+      "hidden_cost": "Mỗi caption dài 'list 5 bước' tốn 90 phút viết. Tuần 4 bài = 6h/tuần. Burn-out là tất yếu.",
+      "reframe_angle": "Caption ngắn (200 từ POV + ví dụ) tốn 25 phút, save cao hơn. Tổng 4 bài = 100 phút/tuần. Bền vững gấp 4 lần.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["hot_take", "fourp"]
+    },
+    {
+      "id": "i5",
+      "type": "aspiration",
+      "title_vi": "Sáng thứ 2 mở Notion thấy content tuần đã viết xong",
+      "statement_vi": "Trạng thái Linh khao khát: 8h sáng thứ 2, mở Notion, content tuần đã batch xong từ chủ nhật. Cô không 'ngồi nghĩ caption'. Cô pha cà phê, đăng 1 bài, đóng app, quay lại làm coaching cho client. Tách 'viết' khỏi 'đăng' — não ngừng kẹt.",
+      "source": {
+        "gain_ids": ["g2"],
+        "pain_ids": ["p6"],
+        "verbatim_quotes": [
+          "em viết content căng 3 tuần xong nằm thẳng cẳng 2 tuần",
+          "em cần 1 lộ trình từng bước rõ ràng thôi"
+        ]
+      },
+      "hidden_cost": null,
+      "reframe_angle": "Content batching không phải 'productivity hack'. Là điều kiện sống còn để coach không phải chọn giữa 'làm content' và 'làm coaching'.",
+      "novelty_score": 3,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["bab", "fourp"]
+    },
+    {
+      "id": "i6",
+      "type": "objection",
+      "title_vi": "'Học viên cohort không có kết quả như 1-1'",
+      "statement_vi": "Đối kháng phổ biến nhất: 'cohort thì không sâu được như 1-1'. Sự thật: cohort có 1 thứ 1-1 không có — peer accountability. Học viên cohort không hoàn thành VÌ thiếu peer (ai cũng tự lực) chứ không phải vì format kém.",
+      "source": {
+        "pain_ids": ["p3", "p7"],
+        "verbatim_quotes": [
+          "1-1 thì em ổn, nhóm thì em sợ",
+          "em sợ học viên thấy em cũng còn đang học"
+        ]
+      },
+      "hidden_cost": "Đối kháng này giữ Linh ở 1-1 mãi. 1-1 không scale → phải tăng giá → mất client → income bấp bênh.",
+      "reframe_angle": "So sánh sai chuẩn: cohort vs 1-1 không phải 'depth vs breadth'. Là 'self-learning + peer' vs 'guided alone'. Người nào hợp peer sẽ thành công cohort hơn 1-1.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["pas", "storybrand"]
+    },
+    {
+      "id": "i7",
+      "type": "transformation",
+      "title_vi": "Từ '1-1 đầy schedule + kiệt sức' → 'cohort 12 người + 6 tuần work focused'",
+      "statement_vi": "Linh hiện: 5 client × 4 buổi × 2tr = 40tr/tháng nhưng làm 80h/tháng coaching + 30h content = kiệt sức. Linh sau cohort 1: 6 tuần intensive work, 12 người × 8tr = 96tr, làm 100h tổng — sau đó 4 tuần off, content giảm còn 1.5h/tuần.",
+      "source": {
+        "gain_ids": ["g1", "g2"],
+        "pain_ids": ["p6", "p8"],
+        "verbatim_quotes": [
+          "em muốn mở khoá nhóm chứ 1-1 hoài em mệt chị ạ",
+          "em ngại tăng giá lắm, sợ client cũ giận"
+        ]
+      },
+      "hidden_cost": null,
+      "reframe_angle": "Bridge thật: tách công việc thành 'launch sprint' (6 tuần) + 'recovery' (4 tuần) thay vì 'always-on'. Đây là model coach top-tier dùng.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["bab", "fourp"]
+    },
+    {
+      "id": "i8",
+      "type": "identity_shift",
+      "title_vi": "Phải nhận mình là 'guide' (đã đi qua) không phải 'người đang học' (đi cùng)",
+      "statement_vi": "Imposter syndrome của Linh có gốc identity: cô vẫn nghĩ mình 'đang học cùng học viên'. Nhưng cohort yêu cầu một identity khác — 'guide' (người đã đi qua đoạn đường này, biết đường, dẫn). Không có identity shift này, mọi tài liệu cô làm đều phảng phất 'có khi tôi cũng chưa chắc'.",
+      "source": {
+        "pain_ids": ["p7"],
+        "job_ids": ["j5", "j6"],
+        "verbatim_quotes": [
+          "em sợ học viên thấy em cũng còn đang học",
+          "em không muốn bị nói là coach mạng đâu chị"
+        ]
+      },
+      "hidden_cost": "Không shift identity = pricing không nâng được + sales caption không có conviction + học viên cảm nhận → DM hỏi giá rồi biến.",
+      "reframe_angle": "Guide ≠ all-knowing. Guide = đã đi qua đoạn họ đang đi + biết tránh 3 cái bẫy chính. Đó đủ để guide.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness", "lead", "sale"],
+      "recommended_formulas": ["hero", "storybrand"]
+    },
+    {
+      "id": "i9",
+      "type": "tension",
+      "title_vi": "Tăng giá 1-1 vs giữ client cũ",
+      "statement_vi": "Linh kẹt giữa: tăng giá 1-1 từ 2tr lên 3-4tr (cần thiết để giảm số buổi mà giữ income), nhưng sợ client cũ 'giận' và rời đi. Sự thật: 70% client cũ sẽ accept giá mới nếu communicate đúng cách + 1 lần (không xin lỗi liên tục).",
+      "source": {
+        "pain_ids": ["p8"],
+        "verbatim_quotes": [
+          "em ngại tăng giá lắm, sợ client cũ giận"
+        ]
+      },
+      "hidden_cost": "Giữ giá 2tr trong 12 tháng nữa = mất ~24tr revenue/năm + tiếp tục ở threshold burn-out.",
+      "reframe_angle": "Giá tăng = signal 'tôi đầu tư phát triển'. Client tốt sẽ ở lại. Client rời đi vì 1tr/buổi không phải client tốt — đỡ tốn năng lượng.",
+      "novelty_score": 3,
+      "applicable_goals": ["lead"],
+      "recommended_formulas": ["pas"]
+    },
+    {
+      "id": "i10",
+      "type": "contradiction",
+      "title_vi": "1k save mà 0 inbox = mismatch giữa 'giúp đỡ' và 'mời mua'",
+      "statement_vi": "Save cao + inbox thấp = audience đánh giá content giá trị nhưng không thấy 'lý do để hành động'. Bài toàn 'tips/value' không có moment 'tôi mời bạn'. Audience đọc xong nghĩ 'hay, lưu lại đã' rồi quên — vì không có CTA cụ thể.",
+      "source": {
+        "pain_ids": ["p4", "p5"],
+        "verbatim_quotes": [
+          "1k save mà 0 inbox, em không hiểu",
+          "DM toàn người hỏi giá rồi biến mất chị"
+        ]
+      },
+      "hidden_cost": "Mỗi tuần 4 bài 'pure value' = 4 cơ hội mời chuyển hoá thành 0 cơ hội thật.",
+      "reframe_angle": "Tỉ lệ vàng: 3 bài 'value' + 1 bài 'invite'. Bài invite phải có CTA cụ thể (cmt keyword / link bio / DM keyword) — không phải 'inbox mình nếu cần'.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["pas", "fourp"]
+    }
+  ]
+}

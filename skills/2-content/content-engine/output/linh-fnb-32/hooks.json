@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_fnb_cafe_32",
+  "generated_at": "2026-04-25T16:20:00+07:00",
+  "hooks": [
+    {
+      "id": "h1",
+      "type": "question_led",
+      "text_vi": "Bạn muốn quán đông tuần — hay muốn quán đông cuối tuần check-in rồi biến?",
+      "paired_insight_id": "i1",
+      "paired_formula": "pas",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h2",
+      "type": "transformation",
+      "text_vi": "Từ '200 khách check-in 1 lần' sang '30 khách quen quay lại 5 lần/tháng' — cùng doanh thu, khác cuộc đời.",
+      "paired_insight_id": "i1",
+      "paired_formula": "bab",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h3",
+      "type": "callout",
+      "text_vi": "Bạn đang khao khát 'đông tuần' nhưng marketing toàn 'đông cuối tuần'. Bạn đang kẹt vì chính promotion của mình.",
+      "paired_insight_id": "i1",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["kẹt"]
+    },
+    {
+      "id": "h4",
+      "type": "contradiction",
+      "text_vi": "Hot take: 8.2k follow IG specialty của bạn không 'flop' vì thuật toán. Vì caption nào cũng giống ai cũng được.",
+      "paired_insight_id": "i2",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["flop", "specialty"]
+    },
+    {
+      "id": "h5",
+      "type": "stat_led",
+      "text_vi": "Mình audit 50 page cafe specialty Saigon — 47 page dùng cùng 1 hook 'cà phê là tâm trạng'.",
+      "paired_insight_id": "i2",
+      "paired_formula": "fourp",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["specialty"]
+    },
+    {
+      "id": "h6",
+      "type": "callout",
+      "text_vi": "Bạn đang bấp bênh không phải vì quán — vì caption của bạn cho thuật toán biết bạn thuộc đám đông.",
+      "paired_insight_id": "i2",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["bấp bênh"]
+    },
+    {
+      "id": "h7",
+      "type": "contradiction",
+      "text_vi": "Bạn nói specialty là về câu chuyện. Bạn post latte art. Bạn tự mâu thuẫn rồi.",
+      "paired_insight_id": "i3",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["specialty"]
+    },
+    {
+      "id": "h8",
+      "type": "list",
+      "text_vi": "4 loại story cafe owner specialty NÊN post (không phải 'latte art số 18').",
+      "paired_insight_id": "i3",
+      "paired_formula": "fourp",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["specialty", "cafe owner"]
+    },
+    {
+      "id": "h9",
+      "type": "callout",
+      "text_vi": "Bạn đang nhột khi đọc bài này. Vì 80% post tháng trước của bạn là latte art shot.",
+      "paired_insight_id": "i3",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["nhột"]
+    },
+    {
+      "id": "h10",
+      "type": "contradiction",
+      "text_vi": "Hot take: cafe owner càng giỏi caption càng KHÔNG cần đẹp. Cần thật.",
+      "paired_insight_id": "i4",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["cafe owner"]
+    },
+    {
+      "id": "h11",
+      "type": "stat_led",
+      "text_vi": "Caption 'có ngày tệ, có hạt fail' có conversion (save → visit) cao gấp 3 caption đẹp generic — 50 quán Saigon mình review.",
+      "paired_insight_id": "i4",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["specialty"]
+    },
+    {
+      "id": "h12",
+      "type": "story_open",
+      "text_vi": "Hôm nay tôi pha hỏng 12 ly. Đây là caption tôi suýt không dám đăng. Nhưng nó là caption thật nhất.",
+      "paired_insight_id": "i4",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h13",
+      "type": "story_open",
+      "text_vi": "Thứ 3, 8h sáng. 5 khách quen vào, 'em quen lắm chị'. Đây là 'đông tuần' tôi muốn.",
+      "paired_insight_id": "i5",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h14",
+      "type": "transformation",
+      "text_vi": "Từ 'cuối tuần 200 khách check-in' sang '30 khách quen ổn định cả tuần' — đơn giản hơn bạn nghĩ.",
+      "paired_insight_id": "i5",
+      "paired_formula": "bab",
+      "goal": "lead",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["khách quen", "đơn giản"]
+    },
+    {
+      "id": "h15",
+      "type": "question_led",
+      "text_vi": "Quán bạn có bao nhiêu 'khách quen' tuần này — không phải 'khách'?",
+      "paired_insight_id": "i5",
+      "paired_formula": "pas",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h16",
+      "type": "stat_led",
+      "text_vi": "1.5tr cho 8 buổi training = mở job 8-12tr/tháng. ROI 1 tháng. Đây là cách định giá đúng.",
+      "paired_insight_id": "i6",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h17",
+      "type": "contradiction",
+      "text_vi": "Bạn nghĩ '1.5tr là 25 ly cà phê'. Sai chuẩn so sánh rồi. So với 1 tháng lương barista — 8% thôi.",
+      "paired_insight_id": "i6",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h18",
+      "type": "callout",
+      "text_vi": "Bạn đang định giá khoá theo 'giá ly cà phê'. Đó là lý do bạn ế khoá còn quán 'đu trend' để cầm cự.",
+      "paired_insight_id": "i6",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["ế", "đu trend"]
+    },
+    {
+      "id": "h19",
+      "type": "transformation",
+      "text_vi": "Từ '120tr cafe + bấp bênh' sang '120tr cafe + 45tr khoá ổn định' — 60h training, repeat mỗi quý.",
+      "paired_insight_id": "i7",
+      "paired_formula": "bab",
+      "goal": "sale",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["bấp bênh"]
+    },
+    {
+      "id": "h20",
+      "type": "stat_led",
+      "text_vi": "8 buổi training = 60h work 1 lần → 45tr revenue. Đòn bẩy 750k/h. So với 60k/ly cà phê.",
+      "paired_insight_id": "i7",
+      "paired_formula": "fourp",
+      "goal": "sale",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h21",
+      "type": "list",
+      "text_vi": "3 lý do cafe owner cần income thứ 2 (không phải vì 'cafe ế').",
+      "paired_insight_id": "i7",
+      "paired_formula": "fourp",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cafe owner", "ế"]
+    },
+    {
+      "id": "h22",
+      "type": "story_open",
+      "text_vi": "Học viên đầu tiên hỏi: 'Chị làm nghề lâu chưa?' Tôi suýt nói 'em mới mở quán 2 năm thôi'. Tôi đã sai.",
+      "paired_insight_id": "i8",
+      "paired_formula": "hero",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_60s"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h23",
+      "type": "contradiction",
+      "text_vi": "Imposter syndrome của cafe owner không chữa bằng 'tích thêm 1 năm kinh nghiệm'. Chữa bằng identity shift.",
+      "paired_insight_id": "i8",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["cafe owner"]
+    },
+    {
+      "id": "h24",
+      "type": "callout",
+      "text_vi": "Bạn nghĩ mình 'chỉ là chủ quán biết pha'. Đó là lý do pricing khoá của bạn không nâng nổi.",
+      "paired_insight_id": "i8",
+      "paired_formula": "storybrand",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista"]
+    },
+    {
+      "id": "h25",
+      "type": "callout",
+      "text_vi": "Bạn nói cần khách quen. Bạn promote 'cuối tuần đông kín'. Bạn đang tự cản mình.",
+      "paired_insight_id": "i9",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h26",
+      "type": "story_open",
+      "text_vi": "Tuần trước tôi đổi 1 dòng caption. Từ 'cuối tuần đông kín' sang 'thứ 3 sáng có Vy đến lần thứ 18'. 23 inbox.",
+      "paired_insight_id": "i9",
+      "paired_formula": "bab",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h27",
+      "type": "contradiction",
+      "text_vi": "Hot take: 'cuối tuần đông kín' không phải win. Là dấu hiệu quán bạn không có khách quen.",
+      "paired_insight_id": "i9",
+      "paired_formula": "hot_take",
+      "goal": "awareness",
+      "format_target": ["ig_caption", "reels_30s"],
+      "uses_voice_words": ["khách quen"]
+    },
+    {
+      "id": "h28",
+      "type": "callout",
+      "text_vi": "Bạn nói 'follower toàn barista đã làm rồi'. Bạn có chắc không? Hay bạn đang giả định để không phải launch?",
+      "paired_insight_id": "i10",
+      "paired_formula": "pas",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["barista", "flop"]
+    },
+    {
+      "id": "h29",
+      "type": "stat_led",
+      "text_vi": "Mình survey 30 follower IG cafe specialty: 8% là barista pro, 42% consumer tò mò, 30% đang nghĩ pivot nghề.",
+      "paired_insight_id": "i10",
+      "paired_formula": "fourp",
+      "goal": "awareness",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["specialty", "barista"]
+    },
+    {
+      "id": "h30",
+      "type": "question_led",
+      "text_vi": "Bạn đã hỏi 30 follower của mình họ là ai chưa — hay đang sợ flop dựa trên giả định?",
+      "paired_insight_id": "i10",
+      "paired_formula": "storybrand",
+      "goal": "lead",
+      "format_target": ["ig_caption"],
+      "uses_voice_words": ["flop"]
+    }
+  ]
+}

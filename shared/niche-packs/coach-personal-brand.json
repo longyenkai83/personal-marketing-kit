@@ -1,0 +1,340 @@
+{
+  "_meta": {
+    "name": "Coach + Personal Branding niche pack",
+    "version": "1.0",
+    "niche": "coach-personal-brand",
+    "use_when": "User is a coach (1-1 hoặc cohort) đang build personal brand trên IG/FB ở thị trường VN. Bao gồm: life coach, leadership coach, business coach, mindset coach, sức khoẻ tinh thần coach.",
+    "warning": "Mọi entry confidence=assumed. Skill PHẢI verify qua fb_insight_miner hoặc brief data trước khi promote sang observed."
+  },
+  "schema_version": "1.0",
+  "language": "vi",
+  "demographics_template": {
+    "age_band": "28-38 (median 32)",
+    "role_identity_options": [
+      "leadership coach",
+      "life coach",
+      "career coach",
+      "mindset coach",
+      "wellness/somatic coach",
+      "ICF-certified coach",
+      "ex-corporate coach"
+    ],
+    "life_stage_options": [
+      "ex-corporate, mới nghỉ 6-12 tháng",
+      "đã coach 2-4 năm, muốn scale 1-1 sang cohort",
+      "side-hustle song song full-time",
+      "vừa hoàn thành ICF cert, build thương hiệu từ đầu"
+    ],
+    "income_tier_vnd_typical": "15-30tr/tháng (1-1 chính), kỳ vọng 50tr+ sau khi cohort launch",
+    "ig_fb_usage_typical": {
+      "primary_platform": "IG",
+      "format_preference": "carousel (long-form thinking) + reel (POV)",
+      "peak_online": "21h-23h và 6h-8h sáng",
+      "behavior": "creator-active, post 3-5/tuần, nhưng thường burn-out cycle 3 tuần"
+    }
+  },
+  "jobs_priors": [
+    {
+      "id": "j_coachpb_1",
+      "type": "functional",
+      "statement": "Post 3-5 bài/tuần đều đặn không bị burn-out",
+      "trigger_context": "tối CN lập kế hoạch tuần",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_2",
+      "type": "functional",
+      "statement": "Chốt 5-10 client 1-1 mỗi tháng qua DM IG/FB",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_3",
+      "type": "functional",
+      "statement": "Launch cohort/khoá nhóm đầu tiên với 8-15 học viên",
+      "trigger_context": "khi 1-1 đã đầy schedule và bắt đầu kiệt sức",
+      "importance": "high",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_4",
+      "type": "emotional",
+      "statement": "Tự tin nói về giá khoá/buổi mà không thấy 'tham tiền'",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_5",
+      "type": "emotional",
+      "statement": "Thoát cảm giác imposter, sợ học viên thấy mình 'chưa đủ giỏi'",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_6",
+      "type": "social",
+      "statement": "Được nhìn như 'expert thực sự', không phải 'guru tự xưng' hay 'coach mạng'",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j_coachpb_7",
+      "type": "social",
+      "statement": "Được peer coach giỏi hơn invite vào network/podcast/event",
+      "importance": "medium",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "pains_priors": [
+    {
+      "id": "p_coachpb_1",
+      "type": "obstacle",
+      "statement": "Caption giống 200 coach khác cùng feed — cùng quote, cùng list 5 bước, cùng hook 'Bạn có biết...'",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_2",
+      "type": "obstacle",
+      "statement": "Không biết viết về bản thân mà không nghe như khoe hoặc kể lể",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_3",
+      "type": "obstacle",
+      "statement": "Chưa từng build cohort, không biết chia module bao nhiêu tuần, dài bao nhiêu giờ, group support thế nào",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_4",
+      "type": "undesired_outcome",
+      "statement": "Đăng 4-5 bài/tuần mà DM hỏi giá rồi biến (no-show)",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_5",
+      "type": "undesired_outcome",
+      "statement": "Audience lurker — save bài, follow nhưng không bao giờ inbox",
+      "severity_tag": "moderate",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_6",
+      "type": "undesired_outcome",
+      "statement": "Burn-out cycle: làm content căng 3 tuần → kiệt sức → biến mất 2 tuần → quay lại với cảm giác 'mất đà'",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_7",
+      "type": "risk",
+      "statement": "Sợ launch cohort flop — 4 người mua, 1 hoàn tiền, 2 không hoàn thành — rồi 'mang tiếng' trong network",
+      "severity_tag": "extreme",
+      "frequency_tag": "occasional",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_8",
+      "type": "risk",
+      "statement": "Sợ tăng giá 1-1 sẽ mất client cũ — quen 'em chốt giá em cũ' nhưng đang kiệt sức",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "p_coachpb_9",
+      "type": "risk",
+      "statement": "Sợ bị nhìn như 'chỉ giỏi nói', không có credentials/case study lớn",
+      "severity_tag": "moderate",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "gains_priors": [
+    {
+      "id": "g_coachpb_1",
+      "level_tag": "required",
+      "statement": "Framework rõ: positioning + pricing + sales flow + cohort curriculum structure",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_2",
+      "level_tag": "required",
+      "statement": "Hệ thống content batching không quá 3-4h/tuần để không burn-out",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_3",
+      "level_tag": "expected",
+      "statement": "Template sales caption + DM script đã proven",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_4",
+      "level_tag": "expected",
+      "statement": "Hook bank theo từng goal (awareness/lead/sale)",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_5",
+      "level_tag": "desired",
+      "statement": "Network với coach đã launch cohort thành công — peer support",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_6",
+      "level_tag": "desired",
+      "statement": "Case study cụ thể từ 5-10 client cũ để dùng trong sales page",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_7",
+      "level_tag": "unexpected",
+      "statement": "Mentor 1-1 review feed/sales page trước khi launch",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g_coachpb_8",
+      "level_tag": "unexpected",
+      "statement": "Được intro qua peer coach top-tier có tệp audience lớn hơn",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "voice_priors": {
+    "self_labels": [
+      "coach",
+      "coach 1-1",
+      "coach mới ra nghề",
+      "ex-corporate",
+      "side-hustler",
+      "đứa làm content cho coach",
+      "first-time founder"
+    ],
+    "repeated_words": [
+      "lú",
+      "POV",
+      "scale",
+      "burn out",
+      "imposter",
+      "cohort",
+      "đu trend",
+      "flop",
+      "kẹt",
+      "khao khát",
+      "1-1",
+      "DM",
+      "inbox",
+      "nhột",
+      "chốt deal"
+    ],
+    "metaphors": [
+      "làm content như đi trên dây",
+      "thuật toán như thời tiết",
+      "coaching như đẻ",
+      "scale từ 1-1 như xây nhà từ căn lều",
+      "DM hỏi giá rồi biến như 'người đi xem nhà mẫu rồi không mua'"
+    ],
+    "verbatim_bank_examples": [
+      "em coaching được nhưng viết caption thì lú",
+      "DM toàn người hỏi giá rồi biến",
+      "lỡ launch flop thì nhục lắm",
+      "em không biết tự mình giá bao nhiêu là đúng",
+      "em ngại bị nói 'coach mạng'",
+      "1-1 thì em ổn, nhóm thì em sợ",
+      "burn out 3 tuần liền chị ạ",
+      "em viết bài giống 200 coach khác mất rồi",
+      "em chỉ muốn có lộ trình rõ thôi",
+      "em coaching xong thấy đời mình ý nghĩa nhưng IG thì nhạt"
+    ]
+  },
+  "common_insights_to_explore": [
+    {
+      "type": "tension",
+      "hint": "Muốn scale từ 1-1 sang cohort VÀ muốn giữ chất lượng kết quả 1-1 — hai cái pull theo hướng ngược"
+    },
+    {
+      "type": "contradiction",
+      "hint": "Nói 'tôi giúp người chuyển hóa' nhưng caption giống 200 coach khác → ngầm gửi tín hiệu 'tôi cũng đám đông'"
+    },
+    {
+      "type": "say_vs_do",
+      "hint": "Nói 'tôi đầu tư vào bản thân' nhưng đợi 'sẵn sàng' để launch 6 tháng → 'sẵn sàng' không bao giờ đến"
+    },
+    {
+      "type": "surprise_myth_bust",
+      "hint": "Coach càng giỏi caption càng nên ngắn — không dài. Vì người giỏi gọi tên 1 thứ, không liệt kê 10"
+    },
+    {
+      "type": "aspiration",
+      "hint": "Hết 1-1 đã đầy schedule, mở Notion thấy kế hoạch tuần đã batch xong, không 'ngồi nghĩ caption' nữa"
+    },
+    {
+      "type": "objection",
+      "hint": "Sợ học viên cohort không có kết quả như 1-1 → vì so sánh sai chuẩn (cohort có peer support 1-1 không có)"
+    },
+    {
+      "type": "transformation",
+      "hint": "Từ '1-1 đầy schedule + 18tr/tháng + kiệt sức' → 'cohort 12 người + 96tr/khoá + 6 tuần work focused'"
+    },
+    {
+      "type": "identity_shift",
+      "hint": "Phải nhận mình là 'guide' (đã đi qua) chứ không phải 'người đang học' (đi cùng) — đây là khoá học, không phải book club"
+    }
+  ],
+  "verification_checklist": [
+    "Verify mỗi pain trong pains_priors có quote thật từ data source (FB comment / IG DM / interview).",
+    "Verify income_tier khớp với khách target (under-15tr vs 15-30tr ảnh hưởng pricing-acceptance khác nhau).",
+    "Verify life_stage chính xác — 'ex-corporate 6 tháng' khác với 'side-hustle song song'.",
+    "Verify voice.repeated_words xuất hiện thật trong data, không pre-fill từ niche pack.",
+    "Bỏ qua mọi entry không verify được — đừng ship priors như observed."
+  ]
+}

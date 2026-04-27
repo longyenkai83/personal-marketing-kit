@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_coach_pb_30",
+  "generated_at": "2026-04-25T15:30:00+07:00",
+  "posts": [
+    {
+      "id": "post_001",
+      "format": "ig_caption",
+      "formula": "hot_take",
+      "goal": "awareness",
+      "hook_id": "h10",
+      "insight_id": "i4",
+      "language": "vi",
+      "title": "Hot Take — Coach giỏi caption ngắn",
+      "body": {
+        "full_text": "Hot take: coach càng giỏi caption càng nên ngắn. Không dài.\n\nMọi người tin: caption dài = giá trị, save cao, audience cảm nhận chuyên môn. Tin sai.\n\nMình audit 50 page coach VN tháng này. Caption dạng 'POV ngắn + 1 ví dụ cụ thể' có save trung bình gấp 2.4 lần caption 'list 5 bước'.\n\nLý do? Não save độ độc đáo, không save độ dài.\n\n'5 bước hết stress' — không ai save. Vì 200 page coach khác đã viết.\n\n'Tuần trước 1 client của mình bỏ thói quen check email lúc 7h sáng — tuần thứ 3 cô ấy nói lần đầu sau 4 năm cô ấy thấy thứ 2 không phải nỗi sợ' — save cao. Vì lạ. Vì cụ thể đến mức nhột.\n\nHệ quả: caption 90 phút viết → caption 25 phút viết, save cao hơn. Tổng 4 bài/tuần = 100 phút. Ngừng burn out 3 tuần.\n\nĐồng ý hay không? Cmt bên dưới.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Đồng ý hay không? Cmt bên dưới.",
+        "keyword": "",
+        "link": ""
+      },
+      "hashtags": [
+        "#coachvn",
+        "#personalbranding",
+        "#contentcoach",
+        "#coachingcoach",
+        "#cohort",
+        "#leadershipcoach",
+        "#contentcreator",
+        "#cohortlauncher",
+        "#contentforcoach",
+        "#voicecoach"
+      ],
+      "character_count": 1102,
+      "word_count": 215,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_002",
+      "format": "ig_caption",
+      "formula": "pas",
+      "goal": "lead",
+      "hook_id": "h28",
+      "insight_id": "i10",
+      "language": "vi",
+      "title": "PAS — 1k save 0 inbox",
+      "body": {
+        "full_text": "Bạn đang post 'pure value' 5 bài/tuần. 1k save, 0 inbox. Thiếu 1 cái: lời mời.\n\nBạn nghĩ là do 'thuật toán', do 'audience chưa sẵn sàng'. Nên bạn đăng nhiều hơn. Thêm carousel. Thêm 'tips'. Vẫn 0 inbox.\n\nSự thật khó nuốt: audience đọc xong nghĩ 'hay, lưu lại đã' rồi quên. Vì bạn chỉ cho — không bao giờ mời. Bài nào cũng kết bằng 'inbox mình nếu cần' — câu này = 'không cần'.\n\nMỗi tuần 5 bài 'pure value' = 5 cơ hội mời mua chuyển hoá thành 0. 1 năm = 260 cơ hội mất.\n\nTỉ lệ vàng coach top-tier dùng: 3 bài 'value' + 1 bài 'invite'. Bài invite có CTA cụ thể (cmt keyword / link bio / DM keyword) — không phải 'inbox nếu cần'.\n\nMình mở 5 slot 1-1 audit feed cho coach đang ở '1k save 0 inbox' — mình sẽ chỉ ra đúng 3 bài cần đổi từ 'value' sang 'invite' trong 4 tuần tới.\n\nCmt 'AUDIT' nếu bạn muốn slot.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Cmt 'AUDIT' nếu bạn muốn slot.",
+        "keyword": "AUDIT",
+        "link": ""
+      },
+      "hashtags": [
+        "#coachvn",
+        "#contentcoach",
+        "#salesforcoach",
+        "#1k1inbox",
+        "#dmstrategy",
+        "#leadgenIG",
+        "#cohortcoach",
+        "#coachingbusiness",
+        "#contentstrategy",
+        "#leadershipcoach"
+      ],
+      "character_count": 935,
+      "word_count": 185,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_003",
+      "format": "ig_caption",
+      "formula": "bab",
+      "goal": "sale",
+      "hook_id": "h19",
+      "insight_id": "i7",
+      "language": "vi",
+      "title": "BAB — Từ 1-1 sang cohort",
+      "body": {
+        "full_text": "Trước: 5 client × 4 buổi × 2tr/buổi = 40tr/tháng. Nhưng 80h/tháng coaching + 30h content = kiệt sức tháng thứ 4 liên tiếp. Burn out cycle 3 tuần on / 2 tuần off. Bài viết tốt nhưng giảm dần. Algorithm bóp reach. Income không scale.\n\nSau cohort 1: 12 học viên × 8tr × 6 tuần intensive = 96tr. 100h tổng (làm tập trung) — sau đó 4 tuần off, content giảm còn 1.5h/tuần. Lần đầu sau 18 tháng tôi ngủ đủ 8 tiếng.\n\nCây cầu: tôi tách công việc thành 'launch sprint' (6 tuần) + 'recovery' (4 tuần) — không phải 'always-on'. Tuần 1-2: marketing + sale. Tuần 3-8: deliver cohort. Tuần 9-12: recover + plan cohort 2. Đây là model coach top-tier dùng — không phải 'productivity hack'.\n\nĐiều quan trọng: cohort 1 KHÔNG cần hoàn hảo. Tôi bán beta cho 5 người đầu giá 30%. Họ là co-creator. Cohort 2 mới là 'launch'.\n\nMình đang tuyển 8 coach vào nhóm Cohort Lab tháng 5 — 6 tuần build cohort beta đầu tiên của bạn cùng mình.\n\nCmt 'LAB' để mình gửi chi tiết. Slot 8 — đã đầy 5.",
+        "beats": []
+      },
+      "cta": {
+        "text": "Cmt 'LAB' để mình gửi chi tiết. Slot 8 — đã đầy 5.",
+        "keyword": "LAB",
+        "link": ""
+      },
+      "hashtags": [
+        "#coachvn",
+        "#cohortlauncher",
+        "#scalecoach",
+        "#cohortlab",
+        "#1totocohort",
+        "#coachingbusinessvn",
+        "#leadershipcoach",
+        "#sidehustletofulltime",
+        "#coachingscale",
+        "#cohortbeta"
+      ],
+      "character_count": 1135,
+      "word_count": 218,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    },
+    {
+      "id": "post_004",
+      "format": "reels_30s",
+      "formula": "hero",
+      "goal": "awareness",
+      "hook_id": "h22",
+      "insight_id": "i8",
+      "language": "vi",
+      "title": "Hero — Identity shift moment",
+      "body": {
+        "full_text": "",
+        "beats": [
+          {
+            "label": "hook",
+            "text": "Học viên đầu tiên hỏi: 'Chị làm cái này bao lâu rồi?' Mình suýt nói 'mới 6 tháng'.",
+            "duration_sec": 4.5
+          },
+          {
+            "label": "ordinary_world",
+            "text": "Tháng 4/2024. Tôi nghỉ corporate được 6 tháng. 3 client 1-1, 800 follower. Vẫn tự gọi mình 'mới ra nghề'.",
+            "duration_sec": 5.5
+          },
+          {
+            "label": "call",
+            "text": "Học viên hỏi câu đó. Tôi cảm thấy phải 'thú nhận' — 'em chỉ mới 6 tháng thôi anh'. Suýt nói. Rồi dừng.",
+            "duration_sec": 5.5
+          },
+          {
+            "label": "threshold",
+            "text": "Tôi nhận ra: vấn đề không phải tôi 'thiếu thâm niên'. Là tôi đang nghĩ mình 'còn đang học cùng họ' — sai identity.",
+            "duration_sec": 6.5
+          },
+          {
+            "label": "trial",
+            "text": "Guide không phải all-knowing. Guide là người đã đi qua đoạn họ đang đi + biết tránh 3 cái bẫy chính. Vậy đủ.",
+            "duration_sec": 5.5
+          },
+          {
+            "label": "cta",
+            "text": "Cmt 'GUIDE' nếu bạn cũng đang ở chỗ tôi từng đứng.",
+            "duration_sec": 2.5
+          }
+        ]
+      },
+      "cta": {
+        "text": "Cmt 'GUIDE' nếu bạn cũng đang ở chỗ tôi từng đứng.",
+        "keyword": "GUIDE",
+        "link": ""
+      },
+      "hashtags": [
+        "#coachvn",
+        "#impostersyndrome",
+        "#coachstory",
+        "#identityshift",
+        "#firsttimecoach",
+        "#leadershipcoach",
+        "#cohortcoach",
+        "#sidehustletofulltime"
+      ],
+      "duration_sec_estimated": 30.0,
+      "word_count": 102,
+      "constraints_passed": {
+        "word_count_in_range": true,
+        "uses_voice_vocabulary": true,
+        "no_fabricated_stats": true,
+        "no_fabricated_testimonials": true,
+        "hook_within_first_line": true,
+        "cta_present": true
+      }
+    }
+  ]
+}

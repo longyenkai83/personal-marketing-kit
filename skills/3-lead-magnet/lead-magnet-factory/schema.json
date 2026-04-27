@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lead Magnet Ebook Content",
+  "description": "Structured content for a 9-page listicle lead magnet ebook (Marie Forleo format)",
+  "type": "object",
+  "required": ["metadata", "cover", "intro", "items", "offer_page", "testimonials", "closing_page"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["title_slug", "niche", "topic", "target_audience", "product_cta", "language", "generated_at"],
+      "properties": {
+        "title_slug": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "kebab-case, used for filenames"},
+        "niche": {"type": "string"},
+        "topic": {"type": "string"},
+        "target_audience": {"type": "string"},
+        "product_cta": {"type": "string", "description": "Name + 1-sentence description of the product the ebook sells into"},
+        "language": {"type": "string", "enum": ["vi", "en"]},
+        "author_name": {"type": "string"},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "schema_version": {"type": "string", "const": "1.0"}
+      }
+    },
+    "cover": {
+      "type": "object",
+      "required": ["title_full", "title_highlight_words", "subtitle"],
+      "properties": {
+        "title_full": {"type": "string", "minLength": 20, "maxLength": 120},
+        "title_highlight_words": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "maxItems": 3,
+          "description": "1-3 words from title_full to highlight with orange pill treatment"
+        },
+        "subtitle": {"type": "string", "maxLength": 150}
+      }
+    },
+    "intro": {
+      "type": "object",
+      "required": ["hook_title", "body_paragraphs", "cta_line"],
+      "properties": {
+        "hook_title": {"type": "string", "maxLength": 60, "description": "e.g., 'You've got big dreams, right?'"},
+        "body_paragraphs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 40, "maxLength": 400},
+          "minItems": 2,
+          "maxItems": 4
+        },
+        "cta_line": {"type": "string", "maxLength": 80, "description": "Handwriting-accent line leading into list, e.g., 'here's where it all starts:'"},
+        "cta_summary": {"type": "string", "maxLength": 200, "description": "Optional 1-line summary below cta_line"}
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["number", "heading", "body_paragraphs"],
+        "properties": {
+          "number": {"type": "integer", "minimum": 1, "maximum": 12},
+          "heading": {"type": "string", "minLength": 10, "maxLength": 80, "description": "e.g., 'Stop confusing activity with accomplishment.'"},
+          "body_paragraphs": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 30, "maxLength": 350},
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "research_source": {"type": "string", "description": "Optional URL or note for traceability"}
+        }
+      }
+    },
+    "offer_page": {
+      "type": "object",
+      "required": ["header", "title", "description", "benefits", "cta_button"],
+      "properties": {
+        "header": {"type": "string", "maxLength": 30, "description": "e.g., 'So, what's next?'"},
+        "title": {"type": "string", "minLength": 20, "maxLength": 120},
+        "title_highlight_words": {"type": "array", "items": {"type": "string"}, "maxItems": 3},
+        "description": {"type": "string", "minLength": 50, "maxLength": 400},
+        "benefits": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["emoji", "title", "description"],
+            "properties": {
+              "emoji": {"type": "string", "maxLength": 4},
+              "title": {"type": "string", "maxLength": 20},
+              "description": {"type": "string", "minLength": 30, "maxLength": 150}
+            }
+          }
+        },
+        "cta_button": {"type": "string", "maxLength": 40}
+      }
+    },
+    "testimonials": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "description": "Slots — can contain placeholders like '[testimonial_N_placeholder]' if no real testimonials yet",
+      "items": {
+        "type": "object",
+        "required": ["name", "role", "quote"],
+        "properties": {
+          "name": {"type": "string"},
+          "role": {"type": "string"},
+          "quote": {"type": "string", "maxLength": 400},
+          "is_placeholder": {"type": "boolean", "default": false}
+        }
+      }
+    },
+    "closing_page": {
+      "type": "object",
+      "required": ["title", "intro_line", "differentiators", "final_hook", "cta_button", "signature_line"],
+      "properties": {
+        "title": {"type": "string", "maxLength": 80, "description": "e.g., 'What Makes B-School Different?'"},
+        "intro_line": {"type": "string", "maxLength": 200},
+        "differentiators": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": ["emoji", "title", "description"],
+            "properties": {
+              "emoji": {"type": "string", "maxLength": 4},
+              "title": {"type": "string", "maxLength": 30},
+              "description": {"type": "string", "minLength": 20, "maxLength": 200}
+            }
+          }
+        },
+        "final_hook": {"type": "string", "maxLength": 200, "description": "e.g., 'Everything you've been dreaming of is possible — but only if you take the leap.'"},
+        "cta_button": {"type": "string", "maxLength": 40},
+        "closing_tagline": {"type": "string", "maxLength": 100, "description": "e.g., 'Let's make 2026 your richest year yet.'"},
+        "signature_line": {"type": "string", "maxLength": 30, "description": "e.g., 'xoxo, Marie'"}
+      }
+    },
+    "visual_hints": {
+      "type": "object",
+      "description": "Optional — filled in Phase 6",
+      "properties": {
+        "palette": {"type": "object", "properties": {
+          "primary": {"type": "string", "description": "Hex color"},
+          "accent": {"type": "string"},
+          "highlight": {"type": "string"}
+        }},
+        "style_mood": {"type": "string", "description": "e.g., 'warm professional, lifestyle photography with lime stroke accents'"}
+      }
+    }
+  }
+}

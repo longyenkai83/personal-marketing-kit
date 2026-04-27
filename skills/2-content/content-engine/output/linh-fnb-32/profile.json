@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_fnb_cafe_32",
+  "persona_name": "Linh",
+  "one_line": "Owner cafe specialty 32, 2 năm Lưu Cafe Q3 Saigon, 8.2k follow IG, 120tr/tháng bấp bênh — muốn launch khoá Barista online 8 buổi (1.5tr × 30 học viên = 45tr).",
+  "niche": "fnb-cafe-specialty-owner",
+  "language": "vi",
+  "generated_at": "2026-04-25T16:00:00+07:00",
+  "data_source": {
+    "method": "brief",
+    "brief_path": "output/linh-fnb-32/brief_fill.md"
+  },
+  "demographics": {
+    "age_band": "30-34",
+    "role_identity": "cafe owner + barista, ex-marketing FMCG (3 năm)",
+    "life_stage": "đã mở quán 2 năm, hết giai đoạn 'cố sống còn', đang ở 'làm sao bứt phá khỏi 120tr/tháng'",
+    "income_tier_vnd": "20-30tr/tháng từ quán (lợi nhuận biên 20%)",
+    "ig_fb_usage": {
+      "primary_platform": "IG",
+      "format_preference": "carousel (latte art + behind-scene) + reel (process)",
+      "peak_online": "9h-11h sáng + 21h-23h tối",
+      "behavior": "creator-active, post 5/tuần, focus thị giác — ít storytelling"
+    }
+  },
+  "jobs": [
+    {
+      "id": "j1",
+      "type": "functional",
+      "statement": "Launch khoá Barista online 8 buổi cho 30 học viên đợt đầu trong 60 ngày",
+      "trigger_context": "khi xem doanh thu tháng và nhận ra quán đã chạm trần ~120tr/tháng",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": "em muốn có 1 nguồn thu khác chứ chỉ quán thì kẹt",
+      "source_ref": "brief_q7",
+      "confidence": "observed"
+    },
+    {
+      "id": "j2",
+      "type": "functional",
+      "statement": "Post 5 bài/tuần không bị lặp (mix product + process + khách)",
+      "importance": "high",
+      "frequency_tag": "constant",
+      "verbatim": null,
+      "source_ref": "brief_q7",
+      "confidence": "inferred"
+    },
+    {
+      "id": "j3",
+      "type": "functional",
+      "statement": "Build email list 200+ subscriber để launch khoá (hiện 0 list)",
+      "trigger_context": "khi research thấy launch không có list = doanh thu thấp",
+      "importance": "medium",
+      "frequency_tag": "frequent",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "j4",
+      "type": "emotional",
+      "statement": "Hết áp lực phải 'đẹp như Saigon Coffee Story' — muốn được làm quán đơn giản theo gu mình",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": "em chán đu trend lắm chị, muốn đơn giản",
+      "source_ref": "brief_q8",
+      "confidence": "observed"
+    },
+    {
+      "id": "j5",
+      "type": "social",
+      "statement": "Được nhìn như 'barista có nội lực' thật chứ không phải 'owner Instagram chỉ biết chụp ảnh'",
+      "importance": "high",
+      "frequency_tag": "frequent",
+      "verbatim": "em ngại bị nói là chỉ biết chụp hình",
+      "source_ref": "brief_q9",
+      "confidence": "observed"
+    }
+  ],
+  "pains": [
+    {
+      "id": "p1",
+      "type": "obstacle",
+      "statement": "Caption product giống 200 cafe specialty khác — toàn latte art + quote về cà phê + #specialty",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": "em viết caption giống ai cũng được luôn chị",
+      "source_ref": "brief_q10",
+      "confidence": "observed"
+    },
+    {
+      "id": "p2",
+      "type": "undesired_outcome",
+      "statement": "8.2k follow mà 0 inbox hỏi mua/học — chỉ có inbox đặt bàn cuối tuần",
+      "severity_tag": "extreme",
+      "frequency_tag": "constant",
+      "verbatim": "chị 8.2k follow mà 0 inbox hỏi mua, em không hiểu",
+      "source_ref": "ig_dm_self_review_2026_04",
+      "confidence": "observed"
+    },
+    {
+      "id": "p3",
+      "type": "undesired_outcome",
+      "statement": "Khách đến quán toàn xin chụp hình rồi đi — không quay lại lần 2 trong tháng",
+      "severity_tag": "moderate",
+      "frequency_tag": "frequent",
+      "verbatim": "khách check-in xong biến, em buồn",
+      "source_ref": "brief_q11",
+      "confidence": "observed"
+    },
+    {
+      "id": "p4",
+      "type": "risk",
+      "statement": "Sợ launch khoá Barista flop vì follower toàn barista đã làm rồi (lurker pro)",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": "em sợ flop, follower toàn barista trong nghề rồi",
+      "source_ref": "brief_q12",
+      "confidence": "observed"
+    },
+    {
+      "id": "p5",
+      "type": "obstacle",
+      "statement": "Không biết build curriculum 8 buổi — đang nghĩ 'mỗi buổi 1 món' nhưng cảm giác 'lú', sợ học viên đòi hoàn tiền",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": "em lú lắm, mỗi buổi 1 món thì đủ chưa",
+      "source_ref": "brief_q12",
+      "confidence": "observed"
+    },
+    {
+      "id": "p6",
+      "type": "risk",
+      "statement": "Sợ học viên nghi giá 1.5tr cao — vì 'cà phê quán chỉ 60-80k thôi mà'",
+      "severity_tag": "extreme",
+      "frequency_tag": "frequent",
+      "verbatim": "1.5tr người ta nghĩ 'cà phê có 60k thôi mà'",
+      "source_ref": "brief_q13",
+      "confidence": "observed"
+    },
+    {
+      "id": "p7",
+      "type": "undesired_outcome",
+      "statement": "Cafe đông cuối tuần nhưng vắng thứ 2-5 — doanh thu bấp bênh, áp lực thuê mặt bằng",
+      "severity_tag": "moderate",
+      "frequency_tag": "constant",
+      "verbatim": "em chỉ muốn quán đông tuần thôi chị, cuối tuần thì ai chả đông",
+      "source_ref": "brief_q14",
+      "confidence": "observed"
+    }
+  ],
+  "gains": [
+    {
+      "id": "g1",
+      "level_tag": "required",
+      "statement": "Curriculum 8 buổi rõ — mỗi buổi 1 mục tiêu kỹ năng cụ thể (không phải '1 buổi 1 món')",
+      "importance": "high",
+      "verbatim": "em cần biết 8 buổi đó dạy gì cho ra 1 barista được",
+      "source_ref": "brief_q15",
+      "confidence": "observed"
+    },
+    {
+      "id": "g2",
+      "level_tag": "required",
+      "statement": "Pricing rõ ràng + sales flow + lý do 1.5tr không phải 'đắt' (quy đổi sang giá trị)",
+      "importance": "high",
+      "verbatim": null,
+      "source_ref": "brief_q15",
+      "confidence": "inferred"
+    },
+    {
+      "id": "g3",
+      "level_tag": "expected",
+      "statement": "Template caption launch + DM script (5+ mẫu cho từng giai đoạn funnel)",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "inferred"
+    },
+    {
+      "id": "g4",
+      "level_tag": "expected",
+      "statement": "Workbook PDF cho học viên (note + checklist từng buổi)",
+      "importance": "medium",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g5",
+      "level_tag": "desired",
+      "statement": "Network với 5-10 cafe owner đã launch khoá online thành công ở VN",
+      "importance": "medium",
+      "verbatim": "có chị/em cùng cảnh để hỏi thì đỡ lú",
+      "source_ref": "brief_q16",
+      "confidence": "observed"
+    },
+    {
+      "id": "g6",
+      "level_tag": "desired",
+      "statement": "Studio chụp content đẹp riêng cho khoá (background không phải quán)",
+      "importance": "low",
+      "verbatim": null,
+      "confidence": "assumed"
+    },
+    {
+      "id": "g7",
+      "level_tag": "unexpected",
+      "statement": "Được Saigon Coffee Story / RAB Coffee / 1 KOL F&B nhắc đến/share",
+      "importance": "high",
+      "verbatim": null,
+      "confidence": "assumed"
+    }
+  ],
+  "voice": {
+    "self_labels": [
+      "barista",
+      "cafe owner",
+      "đứa làm cà phê",
+      "chủ quán",
+      "owner cafe specialty"
+    ],
+    "repeated_words": [
+      "bấp bênh",
+      "ế",
+      "đơn giản",
+      "đu trend",
+      "nhột",
+      "lú",
+      "flop",
+      "kẹt",
+      "khách quen",
+      "specialty"
+    ],
+    "metaphors": [
+      "làm khoá như mở quán",
+      "follower là người đi qua, khách là người ngồi xuống",
+      "thuật toán như thời tiết Saigon"
+    ],
+    "verbatim_bank": [
+      "chị 8.2k follow mà 0 inbox hỏi mua, em không hiểu",
+      "em viết caption giống ai cũng được luôn chị",
+      "em sợ flop, follower toàn barista trong nghề rồi",
+      "em lú lắm, mỗi buổi 1 món thì đủ chưa",
+      "1.5tr người ta nghĩ 'cà phê có 60k thôi mà'",
+      "em muốn có 1 nguồn thu khác chứ chỉ quán thì kẹt",
+      "em chỉ muốn quán đông tuần thôi chị, cuối tuần thì ai chả đông",
+      "khách check-in xong biến, em buồn",
+      "em chán đu trend lắm chị, muốn đơn giản",
+      "em ngại bị nói là chỉ biết chụp hình",
+      "em cần biết 8 buổi đó dạy gì cho ra 1 barista được"
+    ]
+  },
+  "evidence_summary": {
+    "total_entries": 19,
+    "observed_pct": 68,
+    "inferred_pct": 16,
+    "assumed_pct": 16,
+    "primary_sources": [
+      "brief_form_2026_04_25 (20 câu Linh tự điền)",
+      "ig_dm_self_review_2026_04 (Linh tự audit 12 inbox tháng 4)"
+    ],
+    "ready_for_hook_stage": true
+  }
+}

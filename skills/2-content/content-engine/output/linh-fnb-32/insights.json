@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "persona_id": "linh_fnb_cafe_32",
+  "generated_at": "2026-04-25T16:10:00+07:00",
+  "insights": [
+    {
+      "id": "i1",
+      "type": "tension",
+      "title_vi": "Mâu thuẫn: muốn 'đông tuần' VÀ giữ vibe specialty không-mass",
+      "statement_vi": "Linh kẹt giữa 2 mong muốn: muốn quán đông từ thứ 2-5 (revenue bền) VÀ muốn giữ vibe specialty không 'mass'. Càng promote 'đông tuần' càng kéo khách check-in dạo, không phải khách specialty thật. Hai mong muốn pull về 2 hướng — kết quả: quán vẫn 60% revenue cuối tuần.",
+      "source": {
+        "pain_ids": ["p3", "p7"],
+        "verbatim_quotes": [
+          "em chỉ muốn quán đông tuần thôi chị, cuối tuần thì ai chả đông",
+          "khách check-in xong biến, em buồn"
+        ]
+      },
+      "hidden_cost": "Doanh thu bấp bênh 24-30tr/tháng + lo thuê mặt bằng + áp lực mở quán 2 sai timing",
+      "reframe_angle": "'Đông tuần' không phải về số lượng. Là về DEPTH — 30 khách quen quay lại 4-5 lần/tháng > 200 khách check-in 1 lần.",
+      "novelty_score": 4,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["pas", "bab"]
+    },
+    {
+      "id": "i2",
+      "type": "contradiction",
+      "title_vi": "Caption 'specialty' giống 200 cafe khác = ngầm gửi 'tôi cũng đám đông'",
+      "statement_vi": "Linh nói quán 'specialty, có gu' — nhưng caption 5 bài/tuần đều giống y hệt 200 cafe specialty Saigon khác (latte art + quote 'cà phê là tâm trạng' + #specialty). Audience nhận ra trước khi cô nhận ra.",
+      "source": {
+        "pain_ids": ["p1", "p2"],
+        "verbatim_quotes": [
+          "em viết caption giống ai cũng được luôn chị",
+          "chị 8.2k follow mà 0 inbox hỏi mua, em không hiểu"
+        ]
+      },
+      "hidden_cost": "Mỗi caption 'latte art + quote' tốn 30 phút. Tuần 5 bài = 2.5h/tuần đốt vào nội dung không tạo retention.",
+      "reframe_angle": "Specialty thật = câu chuyện cụ thể về 1 hạt + 1 khách + 1 buổi sáng. Không phải latte art. Latte art = bằng chứng kỹ năng, không phải POV.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["hot_take", "fourp"]
+    },
+    {
+      "id": "i3",
+      "type": "say_vs_do",
+      "title_vi": "Nói 'specialty là về câu chuyện' nhưng chỉ post latte art",
+      "statement_vi": "Tag #specialty của Linh implies 'origin story, farmer relationship, processing method'. Nhưng 80% post là latte art shot. Cô nói 1 thứ, post 1 thứ khác. Audience save latte art, không save quán.",
+      "source": {
+        "pain_ids": ["p1", "p3"],
+        "verbatim_quotes": [
+          "em viết caption giống ai cũng được luôn chị",
+          "khách check-in xong biến, em buồn"
+        ]
+      },
+      "hidden_cost": "Audience save latte art (chia sẻ với bạn) nhưng không 'lock' brand vào não. Lần sau cần cafe → quên Lưu, vào quán có bài đẹp hơn.",
+      "reframe_angle": "Đổi tỉ lệ: 1 latte art / 4 storytelling (origin / khách / process / failed batch). Mỗi câu chuyện = 1 'lock' nhỏ vào trí nhớ.",
+      "novelty_score": 4,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["hot_take", "pas"]
+    },
+    {
+      "id": "i4",
+      "type": "surprise_myth_bust",
+      "title_vi": "Cafe owner càng giỏi caption càng KHÔNG cần đẹp — cần thật",
+      "statement_vi": "Niềm tin chung F&B IG: 'photo đẹp = quán đắt khách'. Sự thật: photo đẹp + caption generic = save cao + visit thấp. Quán có caption 'thật' (có ngày tệ, có khách khó tính, có hạt fail) có CONVERSION (save → visit) cao gấp 3.",
+      "source": {
+        "pain_ids": ["p2", "p3"],
+        "verbatim_quotes": [
+          "chị 8.2k follow mà 0 inbox hỏi mua, em không hiểu",
+          "khách check-in xong biến, em buồn"
+        ]
+      },
+      "hidden_cost": null,
+      "reframe_angle": "Caption thật + photo đủ tốt > caption đẹp + caption generic. 'Đủ tốt' = không blur, không lệch. Không cần studio.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness"],
+      "recommended_formulas": ["hot_take"]
+    },
+    {
+      "id": "i5",
+      "type": "aspiration",
+      "title_vi": "30 khách quen quay lại 5 lần/tháng — 'đông tuần' thật",
+      "statement_vi": "Trạng thái Linh khao khát: thứ 3 sáng, 8h, có 5-7 khách quen vào, gọi 'em quen lắm chị', ngồi 1 tiếng làm việc. Không phải 200 khách check-in cuối tuần. Là 30 khách quen tuần nào cũng quay 4-5 lần.",
+      "source": {
+        "gain_ids": ["g1"],
+        "pain_ids": ["p7"],
+        "verbatim_quotes": [
+          "em chỉ muốn quán đông tuần thôi chị, cuối tuần thì ai chả đông"
+        ]
+      },
+      "hidden_cost": null,
+      "reframe_angle": "Mục tiêu retention thay viral: 30 khách × 5 visit × 70k = 10.5tr/tuần ổn định, không phụ thuộc trend.",
+      "novelty_score": 3,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["bab", "fourp"]
+    },
+    {
+      "id": "i6",
+      "type": "objection",
+      "title_vi": "'1.5tr cho khoá Barista quá đắt — cà phê có 60k thôi'",
+      "statement_vi": "Đối kháng cứng nhất: học viên tiềm năng so giá khoá với giá ly cà phê. So sánh sai chuẩn — khoá đào tạo nghề = đầu tư kỹ năng cả đời, không phải product tiêu dùng. Đối kháng này có gốc framing — không phải Linh chưa giải thích.",
+      "source": {
+        "pain_ids": ["p6", "p4"],
+        "verbatim_quotes": [
+          "1.5tr người ta nghĩ 'cà phê có 60k thôi mà'",
+          "em sợ flop, follower toàn barista trong nghề rồi"
+        ]
+      },
+      "hidden_cost": "Định giá thấp xuống còn 800k = revenue 24tr (50% kế hoạch) + signal 'tôi không tự tin' = càng ít người mua.",
+      "reframe_angle": "Reframe: 1.5tr không phải '25 ly cà phê'. Là '8 buổi training mở job 8-12tr/tháng' (lương barista mới). ROI 1 tháng làm việc.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["pas", "fourp"]
+    },
+    {
+      "id": "i7",
+      "type": "transformation",
+      "title_vi": "Từ '120tr cafe + bấp bênh' → '120tr cafe + 45tr khoá ổn định'",
+      "statement_vi": "Linh hiện 120tr/tháng cafe, biên 20% = 24tr/tháng, bấp bênh do weekend-heavy. Sau khoá Barista launch: thêm 45tr revenue khoá đợt 1 (1.5tr × 30), biên gross 70% = 31tr profit khoá. Tổng 55tr/tháng + diversified.",
+      "source": {
+        "gain_ids": ["g1", "g2"],
+        "pain_ids": ["p7"],
+        "verbatim_quotes": [
+          "em muốn có 1 nguồn thu khác chứ chỉ quán thì kẹt"
+        ]
+      },
+      "hidden_cost": null,
+      "reframe_angle": "Bridge: 8 buổi khoá = trade 60h thời gian (1 lần) → 45tr revenue (mỗi 3 tháng có thể repeat). Đòn bẩy 750k/h.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead", "sale"],
+      "recommended_formulas": ["bab", "fourp"]
+    },
+    {
+      "id": "i8",
+      "type": "identity_shift",
+      "title_vi": "Phải nhận mình là 'thầy dạy nghề' không phải 'chủ quán có IG'",
+      "statement_vi": "Linh tự nghĩ là 'cafe owner làm content'. Nhưng launch khoá yêu cầu identity khác — 'người dạy nghề'. Không có shift này, content khoá sẽ phảng phất 'tôi cũng chỉ là chủ quán biết pha thôi mà'. Học viên cảm nhận → không pay 1.5tr.",
+      "source": {
+        "pain_ids": ["p4", "p6"],
+        "job_ids": ["j5"],
+        "verbatim_quotes": [
+          "em ngại bị nói là chỉ biết chụp hình",
+          "em sợ flop, follower toàn barista trong nghề rồi"
+        ]
+      },
+      "hidden_cost": "Imposter identity = pricing không nâng được + sales caption thiếu conviction + learner cảm thấy 'chị này chưa đủ'.",
+      "reframe_angle": "Thầy ≠ master. Thầy = đã đi 2 năm đoạn họ đang muốn đi + biết tránh 3 cái bẫy. Đó đủ.",
+      "novelty_score": 5,
+      "applicable_goals": ["awareness", "lead", "sale"],
+      "recommended_formulas": ["hero", "storybrand"]
+    },
+    {
+      "id": "i9",
+      "type": "say_vs_do",
+      "title_vi": "Nói 'muốn khách quen' nhưng promote toàn 'check-in cuối tuần'",
+      "statement_vi": "Linh nói cần khách quen + đông tuần. Nhưng IG promotion toàn 'cuối tuần đông kín, đặt bàn ngay' — kéo về kiểu khách 1-time check-in. Nói 1 thứ, marketing 1 thứ khác.",
+      "source": {
+        "pain_ids": ["p3", "p7"],
+        "verbatim_quotes": [
+          "em chỉ muốn quán đông tuần thôi chị, cuối tuần thì ai chả đông"
+        ]
+      },
+      "hidden_cost": "1 năm marketing 'check-in cuối tuần' = traffic ngắn hạn nhưng không build community → quán mãi bấp bênh.",
+      "reframe_angle": "Đổi loại nội dung: thay 'cuối tuần đông' bằng 'thứ 3 sáng — 5 khách quen + 1 khách lạ'. Story khác, audience khác, retention khác.",
+      "novelty_score": 4,
+      "applicable_goals": ["awareness", "lead"],
+      "recommended_formulas": ["hot_take", "pas"]
+    },
+    {
+      "id": "i10",
+      "type": "objection",
+      "title_vi": "'Follower toàn barista đã làm — họ không mua khoá'",
+      "statement_vi": "Linh nghĩ follower toàn barista pro = không pay khoá người mới. Nhưng dataset thật: 8.2k follow ≠ 8.2k barista. Phần lớn follower IG cafe specialty là consumer + barista mới + người tò mò pivot nghề. Định nghĩa audience sai.",
+      "source": {
+        "pain_ids": ["p4", "p2"],
+        "verbatim_quotes": [
+          "em sợ flop, follower toàn barista trong nghề rồi",
+          "chị 8.2k follow mà 0 inbox hỏi mua, em không hiểu"
+        ]
+      },
+      "hidden_cost": "Định nghĩa sai = không launch + 6 tháng đợi + mất 45tr revenue cohort 1.",
+      "reframe_angle": "Survey 30 follower trước launch — hỏi 'bạn đang làm nghề gì, từng nghĩ pivot sang barista chưa?'. Data thật thay giả định.",
+      "novelty_score": 4,
+      "applicable_goals": ["lead"],
+      "recommended_formulas": ["pas", "storybrand"]
+    }
+  ]
+}

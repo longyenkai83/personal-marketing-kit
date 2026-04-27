@@ -1,0 +1,142 @@
+# 12 Sai Lầm Khiến Fanpage Của Em Đăng Mãi Mà Không Ra Đơn
+
+**Preview bản text của ebook trước khi đưa vào Canva. Đây không phải format cuối — chỉ để em review content.**
+
+---
+
+## Trang 1 — Bìa
+
+> # 12 **Sai Lầm** Khiến Fanpage Của Em Đăng Mãi Mà Không Ra Đơn
+>
+> Những thứ cần dừng ngay trong năm 2026 để fanpage em thoát khỏi trạng thái đăng cho có và bắt đầu nuôi ra khách hàng thật
+>
+> — [Tên của em]
+
+---
+
+## Trang 2 — Intro Hook
+
+> ## Em đăng đều, chỉnh thumbnail đẹp, vậy mà reach vẫn chạm đáy?
+>
+> Em dậy sớm lên bài, chỉnh ảnh 30 phút, caption chỉn chu. Ba ngày sau kiểm tra: 50 reach, 2 like từ bạn bè, DM im lặng. Em tự hỏi mình đã thiếu cái gì, trong khi đối thủ đăng 1 post 'xấu hơn' lại có 500 tương tác.
+>
+> Sự thật là thuật toán Facebook 2026 không còn chơi theo luật 2020. Em vẫn đang làm bài cho một phiên bản Facebook không còn tồn tại. Nếu em không sửa 12 sai lầm dưới đây, mọi cố gắng chỉ đang nuôi thuật toán, không phải nuôi sự nghiệp của em.
+>
+> *đây là 12 điều em cần dừng ngay:*
+>
+> 12 thói quen đang ngầm giết fanpage của em, và cách thoát khỏi từng cái một.
+
+---
+
+## Trang 3–6 — 12 Items
+
+### 1. Đừng coi fanpage chỉ là kênh bán hàng.
+Em đăng 10 bài thì 9 bài là 'sản phẩm mới, giá ưu đãi, inbox để tư vấn'. Giống như em đang hét vào loa trong một buổi tiệc, ai cũng khó chịu và không ai muốn nghe. Thuật toán 2026 đã học được điều đó và âm thầm giảm reach của em mỗi ngày.
+
+Công thức đổi: 10 bài thì 2 bài bán, 5 bài giá trị thực (bí quyết, câu chuyện nghề, hậu trường), 3 bài tương tác (câu hỏi, poll, minigame). Đây là tỷ lệ người theo dõi thật sự tưởng thưởng, và là tỷ lệ thuật toán thấy page này đáng hiển thị.
+
+### 2. Đừng bỏ câu hook 3 giây đầu.
+Người lướt newsfeed quyết định đọc tiếp hay lướt qua trong 3 giây. Em mở bài bằng 'Chào cả nhà, hôm nay shop có...' nghĩa là em vừa tự tặng post của mình cho thuật toán để giấu đi. Không ai dừng lại để đọc một lời chào.
+
+Mở bằng câu hỏi chạm nỗi đau, con số gây sốc, hoặc lời thú nhận thật. 'Tôi đã đốt 3 triệu tiền quảng cáo trong 1 ngày vì sai lầm này.' Hoặc: '99% chủ shop đang làm điều này sai.' Hook giữ mắt, reach mới đến.
+
+### 3. Đừng viết cho 'tất cả mọi người'.
+Em viết 'dành cho các bạn quan tâm đến sức khỏe', nghe rộng cho an toàn. Nhưng đó chính là lý do không ai cảm thấy post này nói riêng với họ. Kết quả: không ai lưu, không ai chia sẻ, không ai nhắn tin.
+
+Viết cho 1 người cụ thể có tên có tuổi. 'Chị Lan, 35 tuổi, mẹ hai bé, hay đau lưng vì bế con cả ngày.' Càng hẹp càng sắc, và người đúng sẽ tự nhận ra chính mình, tự chạm tim, tự nhắn tin cho em.
+
+### 4. Đừng đuổi theo like, hãy đuổi theo share.
+Like là cảm xúc nửa giây rồi quên. Share là người đó đặt uy tín của mình lên post của em trước mặt bạn bè họ. Thuật toán 2026 biết rõ điều đó. Một lượt chia sẻ bằng hai mươi like về mặt reach, đây không phải đồn thổi.
+
+Mỗi post trước khi đăng, tự hỏi: 'Người đọc có muốn gửi cái này cho ai không?' Nếu câu trả lời là không, viết lại. Post được chia sẻ là post cho người ta góc nhìn mới, câu để tranh luận, hoặc thứ hữu ích cụ thể.
+
+### 5. Đừng đăng ảnh tĩnh khi đối thủ đã làm video.
+Thuật toán Facebook 2026 đang đẩy Reels mạnh, không phải vì Facebook thích Reels mà vì người dùng ở lại lâu hơn. Em vẫn đăng 100% ảnh tĩnh trong khi đối thủ đăng video? Em đang thi chạy với một chân bị trói.
+
+Không cần trở thành nhà sáng tạo chuyên nghiệp. Bắt đầu với 1 video 15 giây mỗi tuần, quay bằng điện thoại, nói thẳng vào camera về một điều em biết sâu. Đơn giản, thô, nhưng em đã bước vào cuộc chơi thuật toán đang ưu ái.
+
+### 6. Đừng đăng rồi biến mất trong giờ đầu.
+Em bấm đăng, tắt Facebook, đi làm việc khác. Thuật toán đang ở ngay đó, thử post của em với 100 người đầu tiên. Không có bình luận, không có chia sẻ, không có lưu trong sáu mươi phút? Post đi vào nghĩa địa, không ai thấy nữa.
+
+Lên lịch đăng chỉ khi em sẵn sàng ngồi lại 60 phút. Trả lời bình luận đầu trong 5 phút. Gieo một câu hỏi ở cuối post. Tương tác sớm nói với thuật toán đây là bài chất, và nó mở rộng phân phối cho em.
+
+### 7. Đừng làm bài quá bóng bẩy.
+Em thuê nhà thiết kế, chỉnh từng pixel, chụp ảnh studio, rồi không hiểu sao post không có tương tác. Người xem năm 2026 đã chán 'doanh nghiệp nói chuyện với doanh nghiệp'. Họ muốn thấy người thật, cảm xúc thật, câu chuyện thật.
+
+Thử một post quay bằng điện thoại, không trang điểm, nói về một sai lầm em vừa mắc tuần này. Tương tác sẽ cao gấp năm đến mười lần so với post studio đẹp. Chân thật năm 2026 không phải lựa chọn nữa, nó là điều kiện sống.
+
+### 8. Đừng đăng tuỳ hứng, không chủ đề cột.
+Thứ 2 em đăng bí quyết dưỡng da. Thứ 3 meme vui. Thứ 4 review quán ăn. Em nghĩ 'đa dạng để ai cũng vào', nhưng thuật toán không biết gợi ý page em cho ai. Kết quả: không gợi ý cho ai cả.
+
+Chọn đúng 3 chủ đề cột, chỉ 3. Ví dụ: 'chăm da dầu', 'review mỹ phẩm giá rẻ', 'nếp sinh hoạt hàng ngày'. Mọi post phải rơi vào một trong ba. Nhất quán sâu, không đa dạng lỏng, đó là luật sống còn của fanpage 2026.
+
+### 9. Đừng chạy theo mọi trend viral.
+Trend 'nhảy điệu con gà' đang viral, em cũng nhảy? Em bán khoá học nhưng lại đang múa trên camera. Người theo dõi nhìn em lạ lẫm, không còn biết fanpage này về cái gì nữa. Trend sai làm em mất định vị còn nhanh hơn không đăng.
+
+Lọc mọi trend qua một câu hỏi duy nhất: 'Trend này giúp khách lý tưởng của em giải quyết vấn đề gì?' Nếu không, bỏ qua, dù nó có mười triệu lượt xem. Định vị rõ quan trọng hơn một nghìn lần so với view ngắn hạn.
+
+### 10. Đừng đánh giá fanpage bằng số người theo dõi.
+Mười nghìn người theo dõi mà mỗi post chỉ có 5 tương tác là dấu hiệu fanpage đang chết, không phải đang sống. Tỷ lệ tương tác trên reach mới là con số thật. Số người theo dõi chỉ làm ego vui mỗi tối, nhưng không trả tiền điện và tiền chợ.
+
+Theo dõi 3 con số mỗi tuần: tỷ lệ tương tác trên reach, tỷ lệ lưu bài trên reach, và số cuộc hội thoại trong hộp tin nhắn. Ba con số này nói sự thật về sức khoẻ fanpage. Số người theo dõi thì không, nó là khói.
+
+### 11. Đừng đăng nhiều, hãy đăng đúng.
+Em đăng 3 bài mỗi ngày để 'nuôi thuật toán'. Nhưng mỗi bài chỉ có 30 reach và 1 like, nghĩa là em đang tự huấn luyện thuật toán rằng post của em không đáng hiển thị. Tần suất sai giết reach nhanh hơn cả việc không đăng gì.
+
+Ba đến bốn bài chất trong một tuần đánh bại 21 bài nhạt. Mỗi bài phải qua bài kiểm tra: 'Có ít nhất một lý do rõ để người ta dừng lướt ở đây không?' Nếu câu trả lời mập mờ, đừng đăng, tiết kiệm tên tuổi em.
+
+### 12. Đừng bỏ fanpage trước 90 ngày.
+Em đăng được 30 bài, không thấy kết quả, bắt đầu nản và đổi sang TikTok. Đây chính là cái bẫy giết 90% fanpage trước tuổi trưởng thành. Thuật toán 2026 cần 60 đến 90 ngày để học page em thuộc về ai, đề xuất cho ai.
+
+Cam kết 90 ngày: 4 bài chất mỗi tuần, nhất quán chủ đề cột, đo số vào mỗi cuối tuần. Không đổi định dạng mỗi 3 ngày. Hạt giống cần thời gian dưới lòng đất. Sau 90 ngày em có dữ liệu thật để quyết định tiếp, không phải đoán mò.
+
+---
+
+## Trang 7 — Offer
+
+### Vậy, từ đâu bắt đầu?
+
+## Lộ Trình 90 Ngày Biến Fanpage Của Em Thành Cỗ Máy Ra Đơn
+
+Không chỉ dừng 12 sai lầm, em cần hệ thống thay thế: chủ đề cột đúng, lịch đăng 90 ngày, thư viện hook đã test thực chiến. Đó là Fanpage Profit Lab: 12 tuần từ fanpage ngủ đông sang fanpage ra đơn đầu tiên, với framework em làm theo được ngay.
+
+**Trong Fanpage Profit Lab, em sẽ có:**
+
+- 📈 **Reach tự nhiên** — Framework content 2026 đã kiểm chứng với 150+ fanpage Việt, reach tăng 3 đến 10 lần trong 60 ngày
+- 🎯 **Đơn hàng thật** — Thư viện hook và CTA đã chứng minh ra hội thoại trong hộp tin nhắn từ tuần thứ 4, không chờ đến tháng thứ 6
+- 🤝 **Cộng đồng đồng hành** — Nhóm kín 50 chủ fanpage cùng hành trình, phản hồi chéo mỗi tuần, live coaching trực tiếp với người dẫn
+
+→ **[Tìm Hiểu Fanpage Profit Lab]**
+
+---
+
+## Trang 8 — Testimonials
+
+> **QUAN TRỌNG:** 5 testimonial bên dưới là placeholder. Em BẮT BUỘC phải thay bằng review thật từ học viên trước khi publish ebook public. Không bịa.
+
+- [testimonial_1_placeholder] — [vai trò / ngành hàng]
+- [testimonial_2_placeholder] — [vai trò / ngành hàng]
+- [testimonial_3_placeholder] — [vai trò / ngành hàng]
+- [testimonial_4_placeholder] — [vai trò / ngành hàng]
+- [testimonial_5_placeholder] — [vai trò / ngành hàng]
+
+---
+
+## Trang 9 — Closing
+
+### Điều Gì Làm Fanpage Profit Lab **Khác Biệt**?
+
+Đây không phải một khoá nữa dạy 'cách đăng Facebook'. Đây là hệ thống chủ fanpage Việt đang dùng để biến trang 500 người theo dõi thành kênh ra đơn đều đặn hàng tháng.
+
+- 💖 **Đã test thực chiến:** 150+ fanpage Việt đã đi qua chương trình, case study có con số thật, không marketing nhồi sáo rỗng.
+- 💼 **Làm được ngay:** Hook, CTA, lịch nội dung 90 ngày, em copy rồi điều chỉnh vào ngành hàng mình trong 1 giờ đồng hồ.
+- 🌏 **Cho thị trường Việt:** Hiểu tâm lý mua hàng và văn hoá tương tác của người Việt, không copy nguyên khung từ Mỹ về.
+- 💡 **Hoàn tiền 30 ngày:** Em làm đủ bài tập, nộp đúng hạn, nhưng không ra kết quả cụ thể? Hoàn 100% học phí, không hỏi han.
+
+> Fanpage của em đang ngủ. Hôm nay là ngày em đánh thức nó và biến nó ra tiền.
+
+→ **[Tham Gia Fanpage Profit Lab]**
+
+Để 2026 là năm fanpage của em cuối cùng cũng ra đơn đầu tiên.
+
+xoxo, [Tên của em]

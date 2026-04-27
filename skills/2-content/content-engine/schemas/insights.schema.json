@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Insights",
+  "description": "Stage 2 output — list of insights derived from profile. Each insight is a reframing/synthesis, not a raw pain.",
+  "type": "object",
+  "required": ["schema_version", "persona_id", "insights"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "persona_id": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "insights": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "title_vi", "statement_vi", "source", "novelty_score", "applicable_goals"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^i[0-9]+$"},
+          "type": {
+            "enum": ["tension", "contradiction", "say_vs_do", "surprise_myth_bust", "aspiration", "objection", "transformation", "identity_shift"],
+            "description": "Insight archetype — drives formula choice in Stage 3"
+          },
+          "title_vi": {
+            "type": "string",
+            "maxLength": 80,
+            "description": "Short label, e.g., 'Mâu thuẫn: đăng đều vs. POV'"
+          },
+          "statement_vi": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Full insight statement using customer voice/vocabulary"
+          },
+          "source": {
+            "type": "object",
+            "required": ["verbatim_quotes"],
+            "properties": {
+              "pain_ids": {"type": "array", "items": {"type": "string"}, "description": "References to profile.pains[].id"},
+              "gain_ids": {"type": "array", "items": {"type": "string"}},
+              "job_ids": {"type": "array", "items": {"type": "string"}},
+              "verbatim_quotes": {
+                "type": "array",
+                "items": {"type": "string"},
+                "minItems": 1,
+                "description": "Quotes from profile.voice.verbatim_bank that ground this insight"
+              }
+            }
+          },
+          "hidden_cost": {
+            "type": ["string", "null"],
+            "description": "For PAS-style: what does NOT solving this cost them? (time/money/identity). Null if not applicable."
+          },
+          "reframe_angle": {
+            "type": ["string", "null"],
+            "description": "The new POV that flips the narrative — fuel for Hot Take/contradiction posts. Null if not applicable."
+          },
+          "novelty_score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "1=generic (already in 200 other posts), 5=original POV unique to this brand"
+          },
+          "applicable_goals": {
+            "type": "array",
+            "items": {"enum": ["awareness", "lead", "sale"]},
+            "minItems": 1,
+            "description": "Which content goals this insight can serve"
+          },
+          "recommended_formulas": {
+            "type": "array",
+            "items": {"enum": ["pas", "bab", "storybrand", "hero", "fourp", "hot_take"]},
+            "description": "v1 active set: 6 formulas. Auto-suggested by mapping table from storytelling-and-hooks.md Section 3"
+          }
+        }
+      }
+    }
+  }
+}
